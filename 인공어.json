@@ -1,0 +1,400 @@
+{
+    "모음": {
+        "oe": "외",
+        "wi": "위",
+        "ui": "의",
+        "yo": "요",
+        "ya": "야",
+        "ye": "예",
+        "e": "에",
+        "u": "우",
+        "a": "아",
+        "i": "이"
+    },
+    "자음": {
+        "sh": "/ʃ/",
+        "ch": "ㅊ",
+        "zh": "ㅈ",
+        "f": "ㅍ",
+        "v": "ㅂ",
+        "l": "ㄹ",
+        "k": "ㅋ",
+        "t": "ㅌ",
+        "h": "ㅎ",
+        "n": "ㄴ",
+        "m": "ㅁ"
+    },
+    "pronoun": {
+        "1": {
+            "o": "나 (1인칭 단수)",
+            "ol": "우리 (1인칭 복수)"
+        },
+        "2": {
+            "u": "너 (2인칭 단수)",
+            "ul": "너희들 (2인칭 복수)"
+        },
+        "3": {
+            "e": "그 (3인칭 남성/중성 단수)",
+            "a": "그녀 (3인칭 여성 단수)",
+            "et": "그것 (사물 단수)",
+            "el": "그들 (3인칭 복수)"
+        },
+        "이외": {
+            "yozh": "이것",
+            "yozhl": "이것들",
+            "wizh": "저것",
+            "wishl": "저것들"
+        }
+    },
+    "Adverb": {
+        "ent": {"meaning": "부정", "example": "o oetle ent ~ : 나 ~ 하고 있지 않음."}
+    },
+    "Auxiliary Verb": {
+        "lyen": {"meaning": "~할 수 있다/해도 된다", "example": "o lyen ~ : 나는 ~ 할 수 있다. / lyen o ~? : 나 ~ 해도됨?"},
+        "yolzhn": {"meaning": "~하는 것이 좋겠다.", "example": "u yolzhn ~ : 너는 ~ 하는 것이 좋겠다. / Yolzhn o ~? : 나는 ~ 하는 게 좋을까?"},
+        "uiten": {"meaning": "~할 것이다.", "example": "o uiten ~ : 나는 ~ 할 것이다."},
+        "olyon": {"meaning": "~해야 한다", "example": "o olyon ~. : 나는 ~ 해야한다."},
+        "oetl": {"meaning": "~이다", "derivation": {"oetle": "~하고 있다.", "oetlu": "당하다/되다."}},
+        "wihel": {"meaning": "~하다", "example": "o wihel ~ : 나 ~하다/wihel o ~? : 너 ~ 하니?"}
+    },
+    "Verb": {
+        "Setting": {
+            "N1": "형용사 동사이라고 정의한다.",
+            "N2": "동사의 과거형은 어근에 'at'를 붙인다.",
+            "N3": "모든 동사는 't'로 끝난다."
+        },
+        "vent": { "meaning": "이동하다" },
+        "zhent": { "meaning": "교육하다" },
+        "fyent": { "meaning": "대기하다" },
+        "elyot": { "meaning": "사육하다" },
+        "efot": { "meaning": "수리하다" },
+        "afyot": { "meaning": "비행하다" },
+        "vuit": { "meaning": "여가를 즐기다" },
+        "lusht": { "meaning": "가압하다" },
+        "ekyet": { "meaning": "폐쇄하다" },
+        "veshnt": { "meaning": "질주하다(달리다)" },
+        "zhlot": { "meaning": "투척하다" },
+        "kyest": { "meaning": "보살피다" },
+        "achet": { "meaning": "돕다" },
+        "tyelt": { "meaning": "추종/추적하다" },
+        "kotat": { "meaning": "모방하다" },
+        "chyent": { "meaning": "주입하다" },
+        "elhet": { "meaning": "낙하하다" },
+        "lumt": { "meaning": "도약하다" },
+        "ollent": { "meaning": "마시다" },
+        "myent": { "meaning": "대면하다" },
+        "vyant": { "meaning": "제작하다" },
+        "telyot": { "meaning": "접촉하다" },
+        "aer": { "meaning": "섭취하다" },
+        "aeze": { "meaning": "수령하다" },
+        "aelo": { "meaning": "시청/관찰하다" },
+        "aebo": { "meaning": "파괴하다" },
+        "aeop": { "meaning": "기립하다(일어서다)" },
+        "aeso": { "meaning": "은폐하다" },
+        "aelit": { "meaning": "휴식하다" },
+        "aetur": { "meaning": "심다" },
+        "aeur": { "meaning": "착석하다" },
+        "aeun": { "meaning": "없다" },
+        "aein": { "meaning": "있다" },
+        "aecr": { "meaning": "개방하다" },
+        "aeol": { "meaning": "착용하다" },
+        "aesl": { "meaning": "취침하다" },
+        "aekir": { "meaning": "성장하다" },
+        "aeku": { "meaning": "절단하다" },
+        "aeca": { "meaning": "파지하다" },
+        "aeki": { "meaning": "제공하다" },
+        "aeba": { "meaning": "사망하다" },
+        "aena": { "meaning": "생존하다" },
+        "aetat": { "meaning": "포획하다" },
+        "aesa": { "meaning": "말하다" },
+        "aees": { "meaning": "읽다" },
+        "aeer": { "meaning": "작성하다" },
+        "aeli": { "meaning": "듣다" },
+        "aezo": { "meaning": "소리 지르다" },
+        "aels": { "meaning": "속삭이다" },
+        "aelc": { "meaning": "의사소통하다" },
+        "aesk": { "meaning": "질문하다" },
+        "aetuat": { "meaning": "빠르다" },
+        "aenedo": { "meaning": "필요하다" },
+        "aeboto": { "meaning": "피곤하다" },
+        "aebiot": { "meaning": "크다" }
+    },
+    "Suffix": {
+        "-i":"동사 자체를 추상 명사로 변환.",
+        "-av":"행위자.",
+        "-ev":"행위를 당하는 자",
+        "-ul": "도구/물건",
+        "-um": "장소",
+        "-la": "부사화."
+    },
+    "Noun": {
+        "afyot": {
+            "afyoti": "비행/항공",
+            "afyotav": "비행기 조종자(=파일럿)",
+            "afyotul": "비행기",
+            "afyotum": "활주로/공항"
+        },
+        "zhent": {
+            "zhenti": "교육",
+            "zhentav": "선생님",
+            "zhentev": "학생",
+            "zhentul": "교과서"
+        },
+        "efot":{
+            "efoti": "수리",
+            "efotav": "수리자",
+            "efotul": "수리 도구",
+            "efotum": "서비스 센터"
+        },
+        "root(aesl)":{
+            "slio": "수면",
+            "slul": "침구",
+            "slum": "침실"
+        },
+        "root(aer)":{
+            "rio": "식사",
+            "rer": "식객",
+            "rul": "수저/식기",
+            "rum": "식당"
+        },
+        "vuit":{
+            "vuiti": "놀이",
+            "vuitav": "놀이꾼",
+            "vuitul": "장난감",
+            "vuitum": "놀이터/놀이공원"
+        },
+        "elyot":{
+            "elyoti": "사육",
+            "elyotav": "사육자",
+            "elyotev": "사육 당하는 것(길들여진 동물)",
+            "elyotul": "사육 도구",
+            "elyotum": "사육장"
+        },
+        "ekyet":{
+            "ekyeti": "폐쇠",
+            "ekyetul": "폐쇠 도구(자물쇠)",
+            "ekyetum": "폐쇠 구역"
+        },
+        "vent":{
+            "venti": "산책/조깅",
+            "ventav": "걷는 자",
+            "ventum": "걷는 곳(산책로/공원)"
+        },
+        "kotat":{
+            "kotati": "모방/모조",
+            "kotatav": "모방자(베끼는 자)",
+            "kotatul": "가품/모조품"
+        },
+        "root(aeer)": {
+            "erio": "작성",
+            "erer": "작가"
+        },
+        "fyent": {
+            "fyenti": "대기/기다림",
+            "fyentav": "대기자",
+            "fyentum": "대기실/정류장"
+        },
+        "lusht": {
+            "lushti": "가압/압박",
+            "lushtul": "압축기/펌프",
+            "lushtum": "압력실"
+        },
+        "veshnt": {
+            "veshnti": "질주/레이싱",
+            "veshntav": "주자(러너)/레이서",
+            "veshntul": "경주차/스포츠카",
+            "veshntum": "트랙/경기장"
+        },
+        "zhlot": {
+            "zhloti": "투척/발사",
+            "zhlotav": "투수/발사자",
+            "zhlotul": "투사체/미사일/공"
+        },
+        "kyest": {
+            "kyesti": "보살핌/복지",
+            "kyestav": "보호자/간병인",
+            "kyestev": "피보호자(어린이, 환자 등)",
+            "kyestum": "보호소/요양원"
+        },
+        "achet": {
+            "acheti": "조력/지원",
+            "achetav": "조력자/서포터",
+            "achetul": "보조기구"
+        },
+        "tyelt": {
+            "tyelti": "추적/추종",
+            "tyeltav": "추적자/팬(Follower)",
+            "tyeltul": "추적기(GPS 등)"
+        },
+        "chyent": {
+            "chyenti": "주입/삽입",
+            "chyentav": "주입기(사람)",
+            "chyentul": "주사기/깔때기"
+        },
+        "elhet": {
+            "elheti": "낙하/추락",
+            "elhetav": "낙하자",
+            "elhetul": "낙하산",
+            "elhetum": "낙하지점"
+        },
+        "lumt": {
+            "lumti": "도약/점프",
+            "lumtav": "도약자",
+            "lumtul": "트램펄린/발판"
+        },
+        "ollent": {
+            "ollenti": "음용",
+            "ollentav": "음용자",
+            "ollentul": "컵/빨대/음료수",
+            "ollentum": "급수대"
+        },
+        "myent": {
+            "myenti": "대면/미팅",
+            "myentav": "참석자",
+            "myentum": "회의실/접견실"
+        },
+        "vyant": {
+            "vyanti": "제작/제조",
+            "vyantav": "제작자/엔지니어",
+            "vyantul": "제품/작품",
+            "vyantum": "공장/작업실"
+        },
+        "telyot": {
+            "telyoti": "접촉/연락",
+            "telyotul": "센서/터치패드"
+        },
+        "root(aeze)": {
+            "zeio": "수령/수신",
+            "zeer": "수신자",
+            "zeul": "수신기/안테나"
+        },
+        "root(aelo)": {
+            "loio": "시청/관찰",
+            "loer": "관람객/관찰자",
+            "loul": "망원경/모니터",
+            "loum": "관측소/전망대"
+        },
+        "root(aebo)": {
+            "boio": "파괴/철거",
+            "boer": "파괴자",
+            "boul": "무기/망치/분쇄기",
+            "boum": "폐기장",
+            "boutarum": "유적"
+        },
+        "root(aeop)": {
+            "opio": "기립",
+            "opul": "받침대/스탠드"
+        },
+        "root(aeso)": {
+            "soio": "은폐/잠행",
+            "soul": "은폐막/위장망",
+            "soum": "은신처"
+        },
+        "root(aelit)": {
+            "litio": "휴식",
+            "litum": "휴게소/쉼터"
+        },
+        "root(aetur)": {
+            "turio": "식재/농경",
+            "turer": "농부/정원사",
+            "turul": "모종/삽",
+            "turum": "농장/화단"
+        },
+        "root(aeur)": {
+            "urio": "착석",
+            "urul": "의자/좌석"
+        },
+        "root(aein)": {
+            "inio": "존재",
+            "inea": "존재하는 것(생물/객체)"
+        },
+        "root(aecr)": {
+            "crio": "개방",
+            "crul": "열쇠/오프너"
+        },
+        "root(aeol)": {
+            "olio": "착용",
+            "olul": "옷/장비"
+        },
+        "root(aekir)": {
+            "kirio": "성장/발전",
+            "kirul": "비료/촉진제"
+        },
+        "root(aeku)": {
+            "kuio": "절단",
+            "kuul": "칼/가위"
+        },
+        "root(aeca)": {
+            "caio": "파지/파지법",
+            "caul": "손잡이/집게"
+        },
+        "root(aeki)": {
+            "kiio": "제공/기부",
+            "kier": "기부자/공급자",
+            "kiea": "수혜자",
+            "kiul": "보급품/선물"
+        },
+        "root(aeba)": {
+            "baio": "사망",
+            "baum": "무덤/장례식장"
+        },
+        "root(aena)": {
+            "naio": "생존",
+            "naer": "생존자",
+            "naul": "생존도구(서바이벌 키트)",
+            "nauturer": "후손",
+            "nautarer": "조상"
+        },
+        "root(aetat)": {
+            "tatio": "포획",
+            "tater": "사냥꾼",
+            "tatea": "사냥감",
+            "tatul": "그물/덫"
+        },
+        "root(aesa)": {
+            "saio": "언어/말하기",
+            "saer": "화자",
+            "saul": "확성기/마이크"
+        },
+        "root(aees)": {
+            "esio": "독해/읽기",
+            "eser": "독자"
+        },
+        "root(aeli)": {
+            "lilio": "청취",
+            "lilier": "청취자",
+            "liliul": "헤드셋/이어폰"
+        },
+        "root(aezo)": {
+            "zoio": "고성/외침",
+            "zoer": "소리치는 자"
+        },
+        "root(aels)": {
+            "lsio": "속삭임",
+            "lser": "속삭이는 자"
+        },
+        "root(aelc)": {
+            "lcio": "대화/소통",
+            "lcer": "대화 상대"
+        },
+        "root(aesk)": {
+            "skio": "질문/질의",
+            "sker": "질문자",
+            "skea": "답변자/피질문자"
+        },
+        "root(basic)": {
+            "sulle": "불",
+            "ogle": "흙",
+            "olle": "물",
+            "anole": "바람",
+            "tenle": "번개/전기",
+            "ogole": "산",
+            "sle": "하늘",
+            "cle": "우주",
+            "evle": "강",
+            "onvle": "바다",
+            "ondle": "호수",
+            "ele": "사람"
+        }
+    }
+}
