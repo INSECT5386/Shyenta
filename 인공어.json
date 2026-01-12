@@ -47,7 +47,7 @@
         }
     },
     "Adverb": {
-        "ent": {"meaning": "부정", "example": "o oetle ent ~ : 나 ~ 하고 있지 않음."}
+        "entla": {"meaning": "부정", "example": "o oetle entla ~ : 나 ~ 하고 있지 않음."}
     },
     "Auxiliary Verb": {
         "lyen": {"meaning": "~할 수 있다/해도 된다", "example": "o lyen ~ : 나는 ~ 할 수 있다. / lyen o ~? : 나 ~ 해도됨?"},
