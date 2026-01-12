@@ -1,3 +1,6 @@
+!pip install PyQt6
+!pip install rdp
+!pip install fonttools
 import sys
 import numpy as np
 from rdp import rdp
