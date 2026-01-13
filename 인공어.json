@@ -275,7 +275,7 @@
             "imyent": "대면/미팅",
             "javmye": "참석자",
             "ummye": "회의실/접견실",
-            "myeml": "마시게"
+            "myeml": "대면하게"
         },
         "vyant": {
             "ivyant": "제작/제조",
@@ -287,7 +287,7 @@
         "telyot": {
             "itelyot": "접촉/연락",
             "lutely": "센서/터치패드",
-            "telyml": "마시게"
+            "telyml": "접촉하게/닿게"
         },
         "leket": {
             "ileket": "수령/수신",
