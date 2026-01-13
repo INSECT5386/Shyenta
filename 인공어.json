@@ -15,7 +15,6 @@
     "자음": {
         "sh": "/ʃ/",
         "ch": "/tʃ/",
-        "zh": "/ʒ/",
         "f": "/f/",
         "v": "/v/",
         "l": "/l/",
@@ -23,7 +22,8 @@
         "t": "/t/",
         "h": "/h/",
         "n": "/n/",
-        "m": "/m/"
+        "m": "/m/",
+        "j": "j"
     },
     "pronoun": {
         "1": {
@@ -41,10 +41,10 @@
             "el": "그들 (3인칭 복수)"
         },
         "이외": {
-            "yozh": "이것",
-            "yozhl": "이것들",
-            "wizh": "저것",
-            "wizhl": "저것들"
+            "yoj": "이것",
+            "yojl": "이것들",
+            "wij": "저것",
+            "wijl": "저것들"
         }
     },
     "Adverb": {
@@ -52,7 +52,7 @@
     },
     "Auxiliary Verb": {
         "lyen": {"meaning": "~할 수 있다/해도 된다", "example": "o lyen ~ : 나는 ~ 할 수 있다. / lyen o ~? : 나 ~ 해도됨?"},
-        "yolzhn": {"meaning": "~하는 것이 좋겠다.", "example": "u yolzhn ~ : 너는 ~ 하는 것이 좋겠다. / Yolzhn o ~? : 나는 ~ 하는 게 좋을까?"},
+        "yoljn": {"meaning": "~하는 것이 좋겠다.", "example": "u yoljn ~ : 너는 ~ 하는 것이 좋겠다. / Yoljn o ~? : 나는 ~ 하는 게 좋을까?"},
         "olyon": {"meaning": "~해야 한다", "example": "o olyon ~. : 나는 ~ 해야한다."},
         "oetl": {"meaning": "~이다", "derivation": {"oetle": "~하고 있다.", "oetlu": "당하다/되다."}},
         "wihel": {"meaning": "~하다", "example": "o wihel ~ : 나 ~하다/wihel o ~? : 너 ~ 하니?"}
@@ -65,7 +65,7 @@
             "N4": "동사의 기본형은 't'로 끝난다. 동사의 과거형을 'ef'로 끝난다. 동사의 미래형은 'af'로 끝난다."
         },
         "vent": { "meaning": "이동하다" },
-        "zhent": { "meaning": "교육하다" },
+        "jent": { "meaning": "교육하다" },
         "fyent": { "meaning": "대기하다" },
         "elyot": { "meaning": "사육하다" },
         "efot": { "meaning": "수리하다" },
@@ -89,7 +89,7 @@
         "elt": { "meaning": "섭취하다" },
         "leket": { "meaning": "수령하다" },
         "olkt": { "meaning": "시청/관찰하다" },
-        "zhyekt": { "meaning": "파괴하다" },
+        "jyekt": { "meaning": "파괴하다" },
         "tyet": { "meaning": "기립하다(일어서다)" },
         "lint": { "meaning": "은폐하다" },
         "lyenet": { "meaning": "휴식하다" },
@@ -120,271 +120,270 @@
         "tomot": { "meaning": "피곤하다" },
         "tit": { "meaning": "크다" }
     },
-    "Suffix": {
-        "-i":"동사 자체를 추상 명사로 변환.",
-        "-av":"행위자.",
-        "-ev":"행위를 당하는 자",
-        "-ul": "도구/물건",
-        "-um": "장소",
-        "-la": "부사화."
+    "Prefix": {
+        "i-":"동사 자체를 추상 명사로 변환.",
+        "jav-":"행위자.",
+        "ev-":"행위를 당하는 자",
+        "lu-": "도구/물건",
+        "um-": "장소"
     },
     "Noun": {
         "Setting": {
-            "N1": "동사를 어근으로 두는 명사 중 추상 명사와 root(basic) 명사를 제외한 모든 명사는 동사의 마지막 두 글자를 제거하고 'Suffix'를 붙인 형태이다.",
+            "N1": "동사를 어근으로 두는 명사 중 추상 명사와 root(basic) 명사를 제외한 모든 명사는 동사의 마지막 두 글자를 제거하고 'Prefix'를 붙인 형태이다.",
             "N2": "N1 규칙은 동사가 3자 이하인 경우에만 1글자만 생략하는 것으로 변경된다.",
             "N3": "N1과 N2 규칙에 의해서 '모음'에 정의되어있지 않은 모음 조합이 나올시 끊어 읽는다.",
             "N4": "같은 모음이 연속 2회 이상 나오는 경우. 'oo', 'ee', 'ii', 'aa', 'uu' 일 때, 순서대로 'oko', 'eke', 'iki', 'aka', 'uku'로 변환해 읽는다. 표기는 그대로 연속 모음으로 쓰지만, 발음만 변환해 읽는다."
         },
         "afyot": {
-            "afyoti": "비행/항공",
-            "afyav": "비행기 조종자(=파일럿)",
-            "afyul": "비행기",
-            "afyum": "활주로/공항"
+            "iafyot": "비행/항공",
+            "javafy": "비행기 조종자(=파일럿)",
+            "luafy": "비행기",
+            "umafy": "활주로/공항"
         },
-        "zhent": {
-            "zhenti": "교육",
-            "zheav": "선생님",
-            "zheev": "학생",
-            "zheul": "교과서"
+        "jent": {
+            "ijent": "교육",
+            "javje": "선생님",
+            "evje": "학생",
+            "luje": "교과서"
         },
         "efot":{
-            "efoti": "수리",
-            "efav": "수리자",
-            "eful": "수리 도구",
-            "efum": "서비스 센터"
+            "iefot": "수리",
+            "javef": "수리자",
+            "luef": "수리 도구",
+            "umef": "서비스 센터"
         },
         "slet":{
-            "sleti": "수면",
-            "slul": "침구",
-            "slum": "침실"
+            "islet": "수면",
+            "lusl": "침구",
+            "umsl": "침실"
         },
         "elt":{
-            "elti": "식사",
-            "elav": "식객",
-            "elul": "수저/식기",
-            "elum": "식당"
+            "ielt": "식사",
+            "javel": "식객",
+            "luel": "수저/식기",
+            "umel": "식당"
         },
         "vuit":{
-            "vuiti": "놀이",
-            "vuav": "놀이꾼",
-            "vuul": "장난감",
-            "vuum": "놀이터/놀이공원"
+            "ivuit": "놀이",
+            "javavu": "놀이꾼",
+            "luvu": "장난감",
+            "umvu": "놀이터/놀이공원"
         },
         "elyot":{
-            "elyoti": "사육",
-            "elyav": "사육자",
-            "elyev": "사육 당하는 것(길들여진 동물)",
-            "elyul": "사육 도구",
-            "elyum": "사육장"
+            "ielyot": "사육",
+            "javely": "사육자",
+            "evely": "사육 당하는 것(길들여진 동물)",
+            "luely": "사육 도구",
+            "umely": "사육장"
         },
         "ekyet":{
-            "ekyeti": "폐쇠",
-            "ekyul": "폐쇠 도구(자물쇠)",
-            "ekyum": "폐쇠 구역"
+            "iekyet": "폐쇠",
+            "lueky": "폐쇠 도구(자물쇠)",
+            "umeky": "폐쇠 구역"
         },
         "vent":{
-            "venti": "산책/조깅",
-            "veav": "걷는 자",
-            "veum": "걷는 곳(산책로/공원)"
+            "ivent": "산책/조깅",
+            "javve": "걷는 자",
+            "umve": "걷는 곳(산책로/공원)"
         },
         "kotat":{
-            "kotati": "모방/모조",
-            "kotav": "모방자(베끼는 자)",
-            "kotul": "가품/모조품"
+            "ikotat": "모방/모조",
+            "javkot": "모방자(베끼는 자)",
+            "lukot": "가품/모조품"
         },
         "fyent": {
-            "fyenti": "대기/기다림",
-            "fyeav": "대기자",
-            "fyeum": "대기실/정류장"
+            "ifyent": "대기/기다림",
+            "javfye": "대기자",
+            "umfye": "대기실/정류장"
         },
         "lusht": {
-            "lushti": "가압/압박",
-            "lusul": "압축기/펌프",
-            "lusum": "압력실"
+            "ilusht": "가압/압박",
+            "lulus": "압축기/펌프",
+            "umlus": "압력실"
         },
         "veshnt": {
-            "veshnti": "질주/레이싱",
-            "veshav": "주자(러너)/레이서",
-            "veshul": "경주차/스포츠카",
-            "veshum": "트랙/경기장"
+            "iveshnt": "질주/레이싱",
+            "javvesh": "주자(러너)/레이서",
+            "luvesh": "경주차/스포츠카",
+            "umvesh": "트랙/경기장"
         },
         "zhlot": {
-            "zhloti": "투척/발사",
-            "zhlav": "투수/발사자",
-            "zhlul": "투사체/미사일/공"
+            "izhlot": "투척/발사",
+            "javzhl": "투수/발사자",
+            "luzhl": "투사체/미사일/공"
         },
         "kyest": {
-            "kyesti": "보살핌/복지",
-            "kyeav": "보호자/간병인",
-            "kyeev": "피보호자(어린이, 환자 등)",
-            "kyeum": "보호소/요양원"
+            "ikyest": "보살핌/복지",
+            "javkye": "보호자/간병인",
+            "evkye": "피보호자(어린이, 환자 등)",
+            "umkye": "보호소/요양원"
         },
         "achet": {
-            "acheti": "조력/지원",
-            "achav": "조력자/서포터",
-            "achul": "보조기구"
+            "iachet": "조력/지원",
+            "javach": "조력자/서포터",
+            "luach": "보조기구"
         },
         "tyelt": {
-            "tyelti": "추적/추종",
-            "tyeav": "추적자/팬(Follower)",
-            "tyeul": "추적기(GPS 등)"
+            "ityelt": "추적/추종",
+            "javtye": "추적자/팬(Follower)",
+            "lutye": "추적기(GPS 등)"
         },
         "chyent": {
-            "chyenti": "주입/삽입",
-            "chyeav": "주입기(사람)",
-            "chyeul": "주사기/깔때기"
+            "ichyent": "주입/삽입",
+            "javchye": "주입기(사람)",
+            "luchye": "주사기/깔때기"
         },
         "elhet": {
-            "elheti": "낙하/추락",
-            "elhav": "낙하자",
-            "elhul": "낙하산",
-            "elhum": "낙하지점"
+            "ielhet": "낙하/추락",
+            "javelh": "낙하자",
+            "luelh": "낙하산",
+            "umelh": "낙하지점"
         },
         "lumt": {
-            "lumti": "도약/점프",
-            "luav": "도약자",
-            "luul": "트램펄린/발판"
+            "ilumt": "도약/점프",
+            "javlu": "도약자",
+            "lulu": "트램펄린/발판"
         },
         "ollent": {
-            "ollenti": "음용",
-            "olleav": "음용자",
-            "olleul": "컵/빨대/음료수",
-            "olleum": "급수대"
+            "iollent": "음용",
+            "javolle": "음용자",
+            "luolle": "컵/빨대/음료수",
+            "umolle": "급수대"
         },
         "myent": {
-            "myenti": "대면/미팅",
-            "myeav": "참석자",
-            "myeum": "회의실/접견실"
+            "imyent": "대면/미팅",
+            "javmye": "참석자",
+            "ummye": "회의실/접견실"
         },
         "vyant": {
-            "vyanti": "제작/제조",
-            "vyaav": "제작자/엔지니어",
-            "vyaul": "제품/작품",
-            "vyaum": "공장/작업실"
+            "ivyant": "제작/제조",
+            "javvya": "제작자/엔지니어",
+            "luvya": "제품/작품",
+            "umvya": "공장/작업실"
         },
         "telyot": {
-            "telyoti": "접촉/연락",
-            "telyul": "센서/터치패드"
+            "itelyot": "접촉/연락",
+            "lutely": "센서/터치패드"
         },
         "leket": {
-            "leketi": "수령/수신",
-            "lekav": "수신자",
-            "lekul": "수신기/안테나"
+            "ileket": "수령/수신",
+            "javlek": "수신자",
+            "lulek": "수신기/안테나"
         },
         "olkt": {
-            "olkti": "시청/관찰",
-            "olav": "관람객/관찰자",
-            "olul": "망원경/모니터",
-            "olum": "관측소/전망대"
+            "iolkt": "시청/관찰",
+            "javol": "관람객/관찰자",
+            "luol": "망원경/모니터",
+            "umol": "관측소/전망대"
         },
-        "zhyekt": {
-            "zhyekti": "파괴/철거",
-            "zhyeav": "파괴자",
-            "zhyeul": "무기/망치/분쇄기",
-            "zhyeum": "폐기장",
-            "zhyektefum": "유적"
+        "jyekt": {
+            "ijyekt": "파괴/철거",
+            "javjye": "파괴자",
+            "lujye": "무기/망치/분쇄기",
+            "jyeum": "폐기장",
+            "umjyektef": "유적"
         },
         "tyet": {
-            "tyeti": "기립",
-            "tyul": "받침대/스탠드"
+            "ityet": "기립",
+            "luty": "받침대/스탠드"
         },
         "lint": {
-            "linti": "은폐/잠행",
-            "liul": "은폐막/위장망",
-            "lium": "은신처"
+            "ilint": "은폐/잠행",
+            "luli": "은폐막/위장망",
+            "umli": "은신처"
         },
         "lyenet": {
-            "lyeneti": "휴식",
-            "lyenum": "휴게소/쉼터"
+            "ilyenet": "휴식",
+            "umlyen": "휴게소/쉼터"
         },
         "lantut": {
-            "lantuti": "식재/농경",
-            "lantav": "농부/정원사",
-            "lantul": "모종/삽",
-            "lantum": "농장/화단"
+            "ilantut": "식재/농경",
+            "javlant": "농부/정원사",
+            "lulant": "모종/삽",
+            "umlant": "농장/화단"
         },
         "syut": {
-            "syuti": "착석",
-            "syul": "의자/좌석"
+            "isyut": "착석",
+            "lusy": "의자/좌석"
         },
         "ulyot": {
-            "ulyoti": "개방",
-            "ulyul": "열쇠/오프너"
+            "iulyot": "개방",
+            "luuly": "열쇠/오프너"
         },
         "loet": {
-            "loeti": "착용",
-            "loul": "옷/장비"
+            "iloet": "착용",
+            "lulo": "옷/장비"
         },
         "klolt": {
-            "klolti": "성장/발전",
-            "kloul": "비료/촉진제"
+            "iklolt": "성장/발전",
+            "luklo": "비료/촉진제"
         },
         "hwit": {
-            "hwiti": "절단",
-            "hwul": "칼/가위"
+            "ihwit": "절단",
+            "luhw": "칼/가위"
         },
         "chnt": {
-            "chnti": "파지/파지법",
-            "chul": "손잡이/집게"
+            "ichnt": "파지/파지법",
+            "luch": "손잡이/집게"
         },
         "elekt": {
-            "elekti": "제공/기부",
-            "eleav": "기부자/공급자",
-            "eleev": "수혜자",
-            "eleul": "보급품/선물"
+            "ielekt": "제공/기부",
+            "javele": "기부자/공급자",
+            "evele": "수혜자",
+            "luele": "보급품/선물"
         },
         "shanvyet": {
-            "shanvyeti": "사망",
-            "shanvyum": "무덤/장례식장"
+            "ishanvyet": "사망",
+            "umshanvy": "무덤/장례식장"
         },
         "vyenet": {
-            "vyeneti": "생존",
-            "vyenav": "생존자",
-            "vyenul": "생존도구(서바이벌 키트)",
-            "vyenetafav": "후손",
-            "vyenetefav": "조상"
+            "ivyenet": "생존",
+            "javvyen": "생존자",
+            "luvyen": "생존도구(서바이벌 키트)",
+            "avvyenetaf": "후손",
+            "avvyenetef": "조상"
         },
         "kamat": {
-            "kamati": "포획",
-            "kamav": "사냥꾼",
-            "kamev": "사냥감",
-            "kamul": "그물/덫",
-            "kamum": "사냥터"
+            "ikamat": "포획",
+            "javkam": "사냥꾼",
+            "evkam": "사냥감",
+            "ulkam": "그물/덫",
+            "umkam": "사냥터"
         },
         "swit": {
-            "switi": "언어/말하기",
-            "swav": "화자",
-            "swul": "확성기/마이크"
+            "iswit": "언어/말하기",
+            "javsw": "화자",
+            "lusw": "확성기/마이크"
         },
         "wilet": {
-            "wileti": "독해/읽기",
-            "wilav": "독자"
+            "iwilet": "독해/읽기",
+            "javwil": "독자"
         },
         "eltent": {
-            "eltenti": "작성/쓰기",
-            "elteav": "작성자"
+            "ieltent": "작성/쓰기",
+            "javelte": "작성자"
         },
         "heyent": {
-            "heyenti": "청취",
-            "heyeav": "청취자",
-            "heyeul": "헤드셋/이어폰"
+            "iheyent": "청취",
+            "javheye": "청취자",
+            "luheye": "헤드셋/이어폰"
         },
         "yent": {
-            "yenti": "고성/외침",
-            "yeav": "소리치는 자"
+            "iyent": "고성/외침",
+            "javye": "소리치는 자"
         },
         "slyent": {
-            "slyenti": "속삭임",
-            "slyeav": "속삭이는 자"
+            "islyent": "속삭임",
+            "javslye": "속삭이는 자"
         },
         "velyont": {
-            "velyonti": "대화/소통",
-            "velyoav": "대화 상대"
+            "ivelyont": "대화/소통",
+            "javvelyo": "대화 상대"
         },
         "skent": {
-            "skenti": "질문/질의",
-            "skeav": "질문자",
-            "skeev": "답변자/피질문자"
+            "iskent": "질문/질의",
+            "javske": "질문자",
+            "evske": "답변자/피질문자"
         },
         "root(basic)": {
             "vulle": "불",
