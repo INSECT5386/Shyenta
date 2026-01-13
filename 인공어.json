@@ -47,9 +47,6 @@
             "wijl": "저것들"
         }
     },
-    "Adverb": {
-        "entla": {"meaning": "부정", "example": "o oetle entla ~ : 나 ~ 하고 있지 않음."}
-    },
     "Auxiliary Verb": {
         "lyen": {"meaning": "~할 수 있다/해도 된다", "example": "o lyen ~ : 나는 ~ 할 수 있다. / lyen o ~? : 나 ~ 해도됨?"},
         "yoljn": {"meaning": "~하는 것이 좋겠다.", "example": "u yoljn ~ : 너는 ~ 하는 것이 좋겠다. / Yoljn o ~? : 나는 ~ 하는 게 좋을까?"},
@@ -449,7 +446,22 @@
             "evle": "강",
             "onvle": "바다",
             "ontle": "호수",
-            "ele": "사람"
+            "ele": "사람",
+            "klle": "시간"
+        },
+        "root(basic-adverb)": {
+            "tml": {"meaning": "부정", "example": "o oetle tml ~ : 나 ~ 하고 있지 않음."},
+            "cloml": {"meaning": "가까이"},
+            "vyeneml": {"meaning": "매우"},
+            "janml": {"meaning": "멀리"},
+            "palml": {"meaning": "부분적으로"},
+            "onml": {"meaning": "아직"},
+            "loklle": {"meaning": "오래"},
+            "totml": {"meaning": "완전히"},
+            "anml": {"meaning": "이미"},
+            "teklle": {"meaning": "이전"},
+            "afklle": {"meaning": "이후"},
+            "yenml": {"meaning": "절대 / 전혀"}
         }
     }
 }
