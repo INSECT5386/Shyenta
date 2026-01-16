@@ -1,181 +1,265 @@
-!pip install PyQt6
-!pip install rdp
-!pip install fonttools
 import sys
-import numpy as np
-from rdp import rdp
-from PyQt6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget, QPushButton, QLabel, QHBoxLayout
+import math
+import traceback
+from PyQt6.QtWidgets import (
+    QApplication, QMainWindow, QWidget,
+    QVBoxLayout, QHBoxLayout,
+    QPushButton, QLabel
+)
 from PyQt6.QtGui import QPainter, QPen, QColor
-from PyQt6.QtCore import Qt
+from PyQt6.QtCore import Qt, QPointF
 from fontTools.fontBuilder import FontBuilder
 from fontTools.pens.ttGlyphPen import TTGlyphPen
 
-# 1. 음소 리스트 (로마자 키와 직접 매핑)
-# 복합 음소(sh, ch 등)는 일단 PUA 영역에 두거나, 
-# 사용하지 않는 알파벳 키(q, x 등)에 할당하는 것이 타이핑에 유리합니다.
+PUA_START = 0xE000
 PHONEME_LIST = [
-{"char": "sh", "key": "S", "desc": "/ʃ/ (Voiceless post-alveolar fricative)"}, 
-    {"char": "ch", "key": "C", "desc": "/tʃ/ (Voiceless post-alveolar affricate)"}, 
-    {"char": "zh", "key": "Z", "desc": "/ʒ/ (Voiced post-alveolar fricative)"}, 
-    {"char": "f", "key": "F", "desc": "/f/ (Voiceless labiodental fricative)"},
-    {"char": "v", "key": "V", "desc": "/v/ (Voiced labiodental fricative)"}, 
-    {"char": "l", "key": "L", "desc": "/l/ (Alveolar lateral approximant)"},
-    {"char": "k", "key": "K", "desc": "/k/ (Voiceless velar plosive)"}, 
-    {"char": "t", "key": "T", "desc": "/t/ (Voiceless alveolar plosive)"},
-    {"char": "h", "key": "H", "desc": "/h/ (Voiceless glottal fricative)"}, 
-    {"char": "n", "key": "N", "desc": "/n/ (Alveolar nasal)"}, 
-    {"char": "m", "key": "M", "desc": "/m/ (Bilabial nasal)"},
-    {"char": "oe", "desc": "oe", "key": "W"}, # 예: W 키에 매핑
-    {"char": "wi", "desc": "wi", "key": "Q"}, # 예: Q 키에 매핑
-    {"char": "ui", "desc": "ui", "key": "X"}, # 예: X 키에 매핑
-    {"char": "yo", "desc": "yo", "key": "Y"},
-    {"char": "ya", "desc": "ya", "key": "J"}, # 예: J 키에 매핑
-    {"char": "ye", "desc": "ye", "key": "P"},
-    {"char": "e", "desc": "e", "key": "E"}, 
-    {"char": "u", "desc": "u", "key": "U"},
-    {"char": "a", "desc": "a", "key": "A"}, 
-    {"char": "i", "desc": "i", "key": "I"}
+    # 모음
+    "a","i","u","e","o",
+    "w", "y",
+
+    # 자음
+    "n","m","h","s","c","k","f",
+    "j","v","t","r","l","g", "d"
 ]
 
-class WedgeManager:
-    def __init__(self):
-        self.all_glyphs = {} 
-        self.current_idx = 0
-        
-    def save_current(self, points):
-        # 유니코드를 해당 알파벳의 ASCII 코드로 설정
-        char_key = PHONEME_LIST[self.current_idx]["key"]
-        code = ord(char_key) 
-        self.all_glyphs[code] = points
-        self.current_idx += 1
-        return self.current_idx < len(PHONEME_LIST)
+# =========================
+# Bezier stroke
+# =========================
+class CurveStroke:
+    def __init__(self, p1, p2):
+        self.p1 = p1
+        self.p2 = p2
+        self.cp = QPointF((p1.x()+p2.x())/2, (p1.y()+p2.y())/2)
 
-def create_wedge_font(output_path, glyph_data):
-    fb = FontBuilder(unitsPerEm=1024)
-    glyph_names = [".notdef"] + [f"uni{code:04X}" for code in glyph_data.keys()]
-    fb.setupGlyphOrder(glyph_names)
-    fb.setupCharacterMap({code: f"uni{code:04X}" for code in glyph_data.keys()})
-    
-    glyph_set = {".notdef": TTGlyphPen(None).glyph()}
-    h_metrics = {".notdef": (500, 0)}
-    
-    for code, points in glyph_data.items():
-        pen = TTGlyphPen(None)
-        if len(points) > 2:
-            pen.moveTo(points[0])
-            for p in points[1:]: pen.lineTo(p)
-            pen.closePath()
-        g_name = f"uni{code:04X}"
-        glyph_set[g_name] = pen.glyph()
-        
-        # 선형 구조 핵심: 글자 너비를 실제 그린 폭에 딱 맞춤
-        xs = [p[0] for p in points] if points else [0]
-        width = int(max(xs) + 150) # 여백을 약간 줄여서 글자가 이어지게 함
-        h_metrics[g_name] = (width, 0)
-
-    fb.setupGlyf(glyph_set)
-    fb.setupHorizontalMetrics(h_metrics)
-    fb.setupHorizontalHeader()
-    fb.setupNameTable({"familyName": "WedgeLinear", "styleName": "Regular"})
-    fb.setupOS2()
-    fb.setupPost()
-    fb.save(output_path)
-
+# =========================
+# Canvas
+# =========================
 class Canvas(QWidget):
     def __init__(self):
         super().__init__()
         self.setFixedSize(600, 600)
-        self.points = []
-        self.drawing = False
-        self.setStyleSheet("background-color: white; border: 2px solid black;")
+        self.curves = []
+        self.selected = None
+        self.target = None
+        self.setStyleSheet("background:white;border:2px solid black;")
 
-    def mousePressEvent(self, event):
-        self.points = [event.position()]
-        self.drawing = True
+    def bezier(self, c, t):
+        x = (1-t)**2*c.p1.x() + 2*(1-t)*t*c.cp.x() + t**2*c.p2.x()
+        y = (1-t)**2*c.p1.y() + 2*(1-t)*t*c.cp.y() + t**2*c.p2.y()
+        return QPointF(x, y)
+
+    def mousePressEvent(self, e):
+        pos = e.position()
+        for c in self.curves:
+            for name, p in (("p1",c.p1),("p2",c.p2),("cp",c.cp)):
+                if math.hypot(p.x()-pos.x(), p.y()-pos.y()) < 15:
+                    self.selected = c
+                    self.target = name
+                    return
+        c = CurveStroke(pos, pos)
+        self.curves.append(c)
+        self.selected = c
+        self.target = "p2"
+
+    def mouseMoveEvent(self, e):
+        if not self.selected:
+            return
+        pos = e.position()
+        if self.target == "p1": self.selected.p1 = pos
+        elif self.target == "p2": self.selected.p2 = pos
+        elif self.target == "cp": self.selected.cp = pos
         self.update()
 
-    def mouseMoveEvent(self, event):
-        if self.drawing:
-            self.points.append(event.position())
+    def mouseReleaseEvent(self, e):
+        self.target = None
+
+    def paintEvent(self, e):
+        p = QPainter(self)
+        p.setRenderHint(QPainter.RenderHint.Antialiasing)
+        p.setPen(QPen(QColor(240,240,240),1))
+        p.drawLine(0,300,600,300)
+
+        for c in self.curves:
+            for i in range(20):
+                t1 = i/20
+                t2 = (i+1)/20
+                a = self.bezier(c,t1)
+                b = self.bezier(c,t2)
+                w = 2 + 8*math.sin(math.pi*t1)
+                p.setPen(QPen(
+                    Qt.GlobalColor.black,
+                    w,
+                    Qt.PenStyle.SolidLine,
+                    Qt.PenCapStyle.RoundCap
+                ))
+                p.drawLine(a,b)
+
+            p.setPen(QPen(QColor(200,0,0,120),1))
+            p.drawEllipse(c.p1,5,5)
+            p.drawEllipse(c.p2,5,5)
+            p.setBrush(QColor(0,0,255,80))
+            p.drawEllipse(c.cp,7,7)
+
+    def undo(self):
+        if self.curves:
+            self.curves.pop()
             self.update()
 
-    def mouseReleaseEvent(self, event):
-        self.drawing = False
-        if len(self.points) < 3: return
-        raw_pts = [[p.x(), 600 - p.y()] for p in self.points]
-        self.simplified_points = rdp(raw_pts, epsilon=2.0)
-
-    def paintEvent(self, event):
-        painter = QPainter(self)
-        painter.setRenderHint(QPainter.RenderHint.Antialiasing)
-        if len(self.points) > 1:
-            pen = QPen(Qt.GlobalColor.black, 10, Qt.PenStyle.SolidLine, Qt.PenCapStyle.RoundCap)
-            painter.setPen(pen)
-            for i in range(len(self.points)-1):
-                painter.drawLine(self.points[i], self.points[i+1])
-    
     def clear(self):
-        self.points = []
-        if hasattr(self, 'simplified_points'): del self.simplified_points
+        self.curves.clear()
         self.update()
 
+# =========================
+# Main window
+# =========================
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.manager = WedgeManager()
-        self.setWindowTitle("선형 인공어 폰트 제작기")
-        
-        layout = QVBoxLayout()
-        self.info_label = QLabel(self.get_current_text())
-        self.info_label.setStyleSheet("font-size: 16px; font-weight: bold; color: #2c3e50;")
-        layout.addWidget(self.info_label)
-        
+        self.glyphs = {}
+        self.idx = 0
+        self.setWindowTitle("Bezier PUA Font Maker")
+
+        w = QWidget()
+        v = QVBoxLayout(w)
+
+        self.info = QLabel(f"현재 문자: {PHONEME_LIST[0]}")
+        v.addWidget(self.info)
+
         self.canvas = Canvas()
-        layout.addWidget(self.canvas)
-        
-        btn_layout = QHBoxLayout()
-        self.save_btn = QPushButton("다음 음소 저장")
-        self.save_btn.clicked.connect(self.next_step)
-        self.export_btn = QPushButton("선형 폰트 생성 (.ttf)")
-        self.export_btn.clicked.connect(self.export_ttf)
-        
-        btn_layout.addWidget(self.save_btn)
-        btn_layout.addWidget(self.export_btn)
-        layout.addLayout(btn_layout)
-        
-        widget = QWidget()
-        widget.setLayout(layout)
-        self.setCentralWidget(widget)
+        v.addWidget(self.canvas)
 
-    def get_current_text(self):
-        if self.manager.current_idx < len(PHONEME_LIST):
-            w = PHONEME_LIST[self.manager.current_idx]
-            return f"그릴 문자: {w['char']} ({w['desc']})  -> 매핑될 키: [{w['key']}]"
-        return "모든 음소 완료! 폰트를 생성하세요."
+        h = QHBoxLayout()
+        b1 = QPushButton("취소")
+        b2 = QPushButton("저장")
+        b1.clicked.connect(self.canvas.undo)
+        b2.clicked.connect(self.save_glyph)
+        h.addWidget(b1)
+        h.addWidget(b2)
+        v.addLayout(h)
 
-    def next_step(self):
-        if hasattr(self.canvas, 'simplified_points'):
-            pts = np.array(self.canvas.simplified_points)
-            pts[:, 0] -= pts[:, 0].min()
-            pts[:, 1] -= pts[:, 1].min()
-            scale = 800 / max(pts.max(), 1)
-            final_pts = (pts * scale).astype(int).tolist()
-            
-            has_next = self.manager.save_current(final_pts)
+        b3 = QPushButton("Export TTF")
+        b3.clicked.connect(self.export)
+        v.addWidget(b3)
+
+        self.setCentralWidget(w)
+
+    def save_glyph(self):
+        if not self.canvas.curves:
+            return
+
+        pts = []
+        for c in self.canvas.curves:
+            for i in range(51):
+                pts.append(self.canvas.bezier(c,i/50))
+
+        minx = min(p.x() for p in pts)
+        maxx = max(p.x() for p in pts)
+        miny = min(p.y() for p in pts)
+        maxy = max(p.y() for p in pts)
+
+        w = maxx-minx
+        h = maxy-miny
+        scale = 980/max(w,h,1)
+
+        strokes = []
+        for c in self.canvas.curves:
+            line = []
+            for i in range(21):
+                p = self.canvas.bezier(c,i/20)
+                x = int(round((p.x()-minx)*scale + (1024-w*scale)/2))
+                y = int(round((maxy-p.y())*scale + 50))
+                line.append((x,y))
+            strokes.append(line)
+
+        cp = PUA_START + self.idx
+        self.glyphs[cp] = strokes
+        self.idx += 1
+
+        if self.idx < len(PHONEME_LIST):
+            self.info.setText(f"다음 문자: {PHONEME_LIST[self.idx]}")
             self.canvas.clear()
-            self.info_label.setText(self.get_current_text())
-            if not has_next:
-                self.save_btn.setEnabled(False)
         else:
-            print("그림을 그려주세요.")
+            self.info.setText("모두 완료")
 
-    def export_ttf(self):
-        if not self.manager.all_glyphs: return
-        create_wedge_font("conlang_linear.ttf", self.manager.all_glyphs)
-        print("✅ 선형 폰트 생성 완료!")
+    def export(self):
+        try:
+            save_font("conlang_PUA.ttf", self.glyphs)
+            self.info.setText("TTF 생성 완료")
+        except:
+            traceback.print_exc()
 
+# =========================
+# Font generation (VALID TTF)
+# =========================
+def save_font(path, data):
+    fb = FontBuilder(1024, isTTF=True)
+
+    glyph_order = [".notdef"] + [f"uni{c:04X}" for c in sorted(data)]
+    fb.setupGlyphOrder(glyph_order)
+    fb.setupCharacterMap({c:f"uni{c:04X}" for c in data})
+
+    glyf = {".notdef": TTGlyphPen(None).glyph()}
+    hmtx = {".notdef": (512, 0)}
+
+    for c, strokes in data.items():
+        pen = TTGlyphPen(None)
+        maxx = 0
+
+        for s in strokes:
+            for i in range(len(s)-1):
+                (x1,y1),(x2,y2) = s[i], s[i+1]
+                t = i/len(s)
+                thick = 40 + 80*math.sin(math.pi*t)
+                dx,dy = x2-x1, y2-y1
+                L = math.hypot(dx,dy)
+                if L == 0:
+                    continue
+                nx = -dy/L*(thick/2)
+                ny =  dx/L*(thick/2)
+
+                p1 = (int(round(x1+nx)), int(round(y1+ny)))
+                p2 = (int(round(x2+nx)), int(round(y2+ny)))
+                p3 = (int(round(x2-nx)), int(round(y2-ny)))
+                p4 = (int(round(x1-nx)), int(round(y1-ny)))
+
+                pen.moveTo(p1)
+                pen.lineTo(p2)
+                pen.lineTo(p3)
+                pen.lineTo(p4)
+                pen.closePath()
+
+
+                maxx = max(maxx, x1, x2)
+
+        name = f"uni{c:04X}"
+        glyf[name] = pen.glyph()
+        hmtx[name] = (int(maxx+80), 0)
+
+    fb.setupGlyf(glyf)
+    fb.setupHorizontalMetrics(hmtx)
+    fb.setupHorizontalHeader(ascent=1000, descent=-200)
+    fb.setupOS2(
+        sTypoAscender=1000,
+        sTypoDescender=-200,
+        usWinAscent=1000,
+        usWinDescent=200
+    )
+    fb.setupNameTable({
+        "familyName": "UltraConlangPUA",
+        "styleName": "Regular",
+        "uniqueFontIdentifier": "UltraConlangPUA-1.0",
+        "fullName": "UltraConlangPUA Regular"
+    })
+    fb.setupPost()
+    fb.setupMaxp()
+    fb.setupHead()
+    fb.save(path)
+
+# =========================
+# Run
+# =========================
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    window = MainWindow()
-    window.show()
+    w = MainWindow()
+    w.show()
     sys.exit(app.exec())
