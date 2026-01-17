@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>인공어 디지털 타자기</title>
+    <style>
+        /* 직접 만든 폰트 적용 */
+        @font-face {
+            font-family: 'ConlangFont';
+            src: url('conlang_PUA.ttf') format('truetype');
+        }
+
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 80%;
+            max-width: 800px;
+        }
+
+        h2 { color: #333; }
+
+        /* 입력창 스타일 */
+        #inputArea {
+            width: 100%;
+            height: 100px;
+            padding: 15px;
+            font-size: 18px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+
+        /* 출력창 (인공어 폰트 적용) */
+        #outputArea {
+            width: 100%;
+            min-height: 150px;
+            padding: 15px;
+            background: #fafafa;
+            border: 2px dashed #ccc;
+            border-radius: 8px;
+            font-family: 'ConlangFont', serif; /* 인공어 폰트 */
+            font-size: 40px; /* 문자가 잘 보이도록 크게 설정 */
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            color: #222;
+        }
+
+        .info {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Conlang PUA Typewriter</h2>
+    <textarea id="inputArea" placeholder="영어로 입력하세요 (예: unl lyon)"></textarea>
+    
+    <div id="outputArea"></div>
+    
+    <div class="info">
+        * 매핑된 음소: a, i, u, e, o, w, y, n, m, h, s, c, k, f, j, v, t, r, l, g, d (0xE000 ~)
+    </div>
+</div>
+
+<script>
+    // 사용자가 제공한 매핑 데이터 
+    const PUA_START = 0xE000;
+    const PHONEME_LIST = [
+    "a","i","u","e","o","w","y",
+    "n","m","h","s","c","k","f",
+    "j","v","t","r","x","q","l","g","d"
+];
+
+    // 빠른 조회를 위해 맵 객체 생성
+    const charMap = {};
+    PHONEME_LIST.forEach((char, index) => {
+        charMap[char] = String.fromCharCode(PUA_START + index);
+    });
+
+    const inputArea = document.getElementById('inputArea');
+    const outputArea = document.getElementById('outputArea');
+
+    inputArea.addEventListener('input', (e) => {
+        const text = e.target.value.toLowerCase(); // 소문자로 통일하여 처리
+        let convertedText = "";
+
+        for (let i = 0; i < text.length; i++) {
+            const char = text[i];
+            // 매핑 리스트에 있으면 변환, 없으면(공백 등) 그대로 출력
+            convertedText += charMap[char] ? charMap[char] : char;
+        }
+
+        outputArea.innerText = convertedText;
+    });
+</script>
+
+</body>
+</html>
