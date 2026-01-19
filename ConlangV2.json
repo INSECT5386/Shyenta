@@ -11,8 +11,8 @@
                 "1": "tntv nki (빠르다 나는)",
                 "1.5": "nki tntv (나 빠른)",
                 "2": "tki kmt nki (그것을 포획하다 나는)",
-                "3": "anjn mni nki (학생 이다 나는)",
-                "4": "vki tdu mntkv rjn (너 에게 필요하다 교과서)",
+                "3": "anjno mni nki (학생 이다 나는)",
+                "4": "vki td mntkv rjno (너 에게 필요하다 교과서)",
                 "5": "tki tntv trckt nkici (그것 빠른 추척하다 우리는)",
                 "번외": {
                     "1": "knt tntvj (이동하다 빠르게)"
@@ -203,27 +203,27 @@
         "rd": {
             "뜻": "그리고",
             "발음": "르드",
-            "예시": "tki ghrtdi nki rdu, srtdi nki (그것을 마셨다 나는 그리고, 잤다 나는)"
+            "예시": "tki ghrtd nki rd, srtd nki (그것을 마셨다 나는 그리고, 잤다 나는)"
         },
         "thd": {
             "뜻": "그러면",
-            "발음": "튜드",
-            "예시": "tki ghrtdi vki thdu, ... (그것을 마셨다 너가 그러면, ...)"
+            "발음": "튀드",
+            "예시": "tki ghrtd vki thd, ... (그것을 마셨다 너가 그러면, ...)"
         },
         "sntd": {
-            "뜻": "하즈만",
+            "뜻": "하지만",
             "발음": "슨트드",
-            "예시": "kntdi tnvij nki sntdu, mntkvidi nki. (이동했다 빠르게 나는 하즈만, 피곤했다 나는)"
+            "예시": "kntd tnvj nki sntd, mntkvd nki. (이동했다 빠르게 나는 하지만, 피곤했다 나는)"
         },
         "thntrd": {
             "뜻": "-아니/때문에",
-            "발음": "튠트르드",
-            "예시": "vki kmtfi nki thntrdu, mkrnstdi krnstdi vki. (너를 포획할 것이다 나는 ~때문에, 유적을 파괴하다 너가)"
+            "발음": "튄트르드",
+            "예시": "vki kmtf nki thntrd, mkrnstdo krnstd vki. (너를 포획할 것이다 나는 ~때문에, 유적을 파괴하다 너가)"
         },
         "td": {
             "뜻": "~에게",
             "발음": "트드",
-            "예시": "vki tdu mntkvi rjn (너 에게 필요하다 교과서)"
+            "예시": "vki td mntkv rjno (너 에게 필요하다 교과서)"
         }
     },
     "기본형용사": {
