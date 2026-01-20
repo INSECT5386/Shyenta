@@ -117,8 +117,7 @@
     "-s": {
       "뜻": "무파생 명사 표시",
       "설정": "-s는 명사가 아닌 품사의 단어에서 파생된 명사에는 붙즈 않고, 자체로 어근인 명사에만 붙는다."
-    },
-    "-o": "파생 명사 표시"
+    }
   },
   "연결어미 및 구성요소": {
     "rdm": {
@@ -239,225 +238,225 @@
       "2": "동사의 미래형은 동사에 'f'를 붙인다.",
       "3": "동사의 기본형은 't'로 끝난다. 동사의 과거형을 'd'로 끝난다. 동사의 미래형은 'f'로 끝난다."
     },
-    "krint": {
-      "뜻": "이동하다",
-      "krint": {
-        "akrino": "산책/조깅",
-        "jkrino": "걷는 자",
-        "mkrino": "산책로/공원",
-        "krinj": "걷게/이동하게"
+    "bat": {
+      "뜻": "가다",
+      "bat": {
+        "aba": "산책/조깅",
+        "jba": "걷는 자",
+        "mba": "산책로/공원",
+        "baj": "걷게/이동하게"
       }
     },
-    "jnent": {
-      "뜻": "교육하다",
-      "jnent": {
-        "ajneno": "교육",
-        "jjneno": "선생님",
-        "ejneno": "학생",
-        "rjneno": "교과서",
-        "jnenj": "교육하게"
+    "bafmit": {
+      "뜻": "가르치다",
+      "bafmit": {
+        "abafmi": "교육",
+        "jbafmi": "선생님",
+        "ebafmi": "학생",
+        "rbafmi": "교과서",
+        "bafmij": "교육하게"
       }
     },
-    "stjnt": {
+    "daibit": {
       "뜻": "대기하다",
-      "stjnt": {
-        "astjno": "대기/기다림",
-        "jstjno": "대기자",
-        "mjstjno": "대기실/정류장",
-        "stjnj": "대기하게"
+      "daibit": {
+        "adaibi": "대기/기다림",
+        "jdaibi": "대기자",
+        "mdaibi": "대기실/정류장",
+        "daibij": "대기하게"
       }
     },
-    "trent": {
+    "jaiubt": {
       "뜻": "사육하다",
-      "trent": {
-        "atreno": "사육",
-        "jtreno": "사육자",
-        "etreno": "사육 당하는 것",
-        "rtreno": "사육 도구",
-        "mtreno": "사육장",
-        "trenj": "사육하게"
+      "jaiubt": {
+        "ajaiub": "사육",
+        "jjaiub": "사육자",
+        "ejaiub": "사육 당하는 것",
+        "rjaiub": "사육 도구",
+        "mjaiub": "사육장",
+        "jaiubj": "사육하게"
       }
     },
-    "ktnjt": {
+    "jufit": {
       "뜻": "수리하다",
-      "ktnjt": {
-        "aktnjo": "수리",
-        "jktnjo": "수리자",
-        "rktnjo": "수리 도구",
-        "mktnjo": "서비스 센터",
-        "ktnjj": "수리하게"
+      "jufit": {
+        "ajufi": "수리",
+        "jjufi": "수리자",
+        "rjufi": "수리 도구",
+        "mjufi": "서비스 센터",
+        "jufij": "수리하게"
       }
     },
-    "hfrct": {
-      "뜻": "비행하다",
-      "hfrct": {
-        "ahfrco": "비행/항공",
-        "jhfrco": "비행기 조종자(=파일럿)",
-        "rhfrco": "비행기",
-        "mhfrco": "활주로/공항",
-        "hfrcj": "비행하게"
+    "caft": {
+      "뜻": "날다",
+      "caft": {
+        "acaf": "비행/항공",
+        "jcaf": "비행기 조종자(=파일럿)",
+        "rcaf": "비행기",
+        "mcaf": "활주로/공항",
+        "cafj": "비행하게"
       }
     },
-    "vntrt": {
+    "cost": {
       "뜻": "여가를 즐기다",
-      "vntrt": {
-        "avntro": "놀이",
-        "jvntro": "놀이꾼",
-        "rvntro": "장난감",
-        "mvntro": "놀이터/놀이공원",
-        "vntrj": "놀게"
+      "cost": {
+        "acos": "놀이",
+        "jcos": "놀이꾼",
+        "rcos": "장난감",
+        "mcos": "놀이터/놀이공원",
+        "cosj": "놀게"
       }
     },
-    "feskt": {
+    "cuft": {
       "뜻": "가압하다",
-      "feskt": {
-        "afesko": "가압/압박",
-        "rfesko": "압축기/펌프",
-        "mfesko": "압력실",
-        "feskj": "압박하게"
+      "cuft": {
+        "acuf": "가압/압박",
+        "rcuf": "압축기/펌프",
+        "mcuf": "압력실",
+        "cufj": "압박하게"
       }
     },
-    "kerst": {
+    "dadkt": {
       "뜻": "폐쇄하다",
-      "kerst": {
-        "akerso": "폐쇄",
-        "rkerso": "자물쇠",
-        "mkerso": "폐쇄 구역",
-        "kersj": "폐쇄하게"
+      "dadkt": {
+        "adadko": "폐쇄",
+        "rdadko": "자물쇠",
+        "mdadko": "폐쇄 구역",
+        "dadkj": "폐쇄하게"
       }
     },
-    "harnt": {
+    "liflut": {
       "뜻": "질주하다(달리다)",
-      "harnt": {
-        "aharno": "질주/레이싱",
-        "jharno": "주자/레이서",
-        "rharno": "경주차",
-        "mharno": "트랙/경기장",
-        "harnj": "질주하게"
+      "liflut": {
+        "aliflu": "질주/레이싱",
+        "jliflu": "주자/레이서",
+        "rliflu": "경주차",
+        "mliflu": "트랙/경기장",
+        "lifluj": "질주하게"
       }
     },
-    "jhort": {
+    "pumebt": {
       "뜻": "투척하다",
-      "jhort": {
-        "ajhro": "투척/발사",
-        "jjhoro": "투수/발사자",
-        "rjhoro": "투사체/공",
-        "jhorj": "던지게"
+      "pumebt": {
+        "apumeb": "투척/발사",
+        "jpumeb": "투수/발사자",
+        "rpumeb": "투사체/공",
+        "pumebj": "던지게"
       }
     },
-    "thcrt": {
+    "dofgost": {
       "뜻": "보살피다",
-      "thcrt": {
-        "athcro": "보살핌/복즈",
-        "jthcro": "보호자",
-        "ethcro": "피보호자",
-        "mthcro": "보호소",
-        "thcrj": "보호하게"
+      "dofgost": {
+        "adofgos": "보살핌/복지",
+        "jdofgos": "보호자",
+        "edofgos": "피보호자",
+        "mdofgos": "보호소",
+        "dofgosj": "보호하게"
       }
     },
-    "kmuht": {
+    "dogt": {
       "뜻": "돕다",
-      "kmuht": {
-        "akmuho": "조력/즈원",
-        "jkmuho": "조력자",
-        "rkmuho": "보조기구",
-        "kmuhj": "도와주게"
+      "dogt": {
+        "adog": "조력/즈원",
+        "jdog": "조력자",
+        "rdog": "보조기구",
+        "dogj": "도와주게"
       }
     },
-    "trckt": {
+    "mulebt": {
       "뜻": "추종/추적하다",
-      "trckt": {
-        "atrcko": "추적/추종",
-        "jtrcko": "추적자/팬",
-        "rtrcko": "추적기",
-        "trckj": "따라가게"
+      "mulebt": {
+        "amuleb": "추적/추종",
+        "jmuleb": "추적자/팬",
+        "rmuleb": "추적기",
+        "mulebj": "따라가게"
       }
     },
-    "metnt": {
+    "sogakt": {
       "뜻": "모방하다",
-      "metnt": {
-        "ametno": "모방/모조",
-        "jmetno": "모방자",
-        "rmetno": "모조품",
-        "metnj": "모방하게"
+      "sogakt": {
+        "asogak": "모방/모조",
+        "jsogak": "모방자",
+        "rsogak": "모조품",
+        "sogakj": "모방하게"
       }
     },
-    "jnact": {
+    "luigt": {
       "뜻": "주입하다",
-      "jnact": {
-        "ajco": "주입/삽입",
-        "jjnaco": "주입기(사람)",
-        "rjnaco": "주사기/깔때기",
-        "jnacj": "주입하게"
+      "luig": {
+        "aluig": "주입/삽입",
+        "jluig": "주입기(사람)",
+        "rluig": "주사기/깔때기",
+        "luigj": "주입하게"
       }
     },
-    "fntnt": {
+    "cabtat": {
       "뜻": "낙하하다",
-      "fntnt": {
-        "afntno": "낙하/추락",
-        "jfntno": "낙하자",
-        "rfntno": "낙하산",
-        "mfntno": "낙하지점",
-        "fntnj": "떨어지게"
+      "cabtat": {
+        "acabta": "낙하/추락",
+        "jcabta": "낙하자",
+        "rcabta": "낙하산",
+        "mcabta": "낙하지점",
+        "cabtaj": "떨어지게"
       }
     },
-    "cimnt": {
+    "lesqt": {
       "뜻": "도약하다",
-      "cimnt": {
-        "acimno": "도약/점프",
-        "jcimno": "도약자",
-        "rcimno": "트램펄린",
-        "cimnj": "뛰게"
+      "lesqt": {
+        "alesq": "도약/점프",
+        "jlesq": "도약자",
+        "rlesq": "트램펄린",
+        "lesqj": "뛰게"
       }
     },
-    "ghort": {
+    "sajist": {
       "뜻": "마시다",
       "ghort": {
-        "aghoro": "음용",
-        "jghoro": "음용자",
-        "rghoro": "컵/음료수",
-        "mghoro": "급수대",
+        "aghor": "음용",
+        "jghor": "음용자",
+        "rghor": "컵/음료수",
+        "mghor": "급수대",
         "ghorj": "마시게"
       }
     },
-    "mjint": {
+    "saccast": {
       "뜻": "대면하다",
       "mjint": {
-        "amjino": "대면/미팅",
-        "jmjino": "참석자",
-        "mmjino": "회의실",
+        "amjin": "대면/미팅",
+        "jmjin": "참석자",
+        "mmjin": "회의실",
         "mjinj": "대면하게"
       }
     },
-    "knmnt": {
+    "sacdst": {
       "뜻": "제작하다",
       "knmnt": {
-        "aknmno": "제작/제조",
-        "jknmno": "제작자/엔즈니어",
-        "rknmno": "제품/작품",
-        "mknmno": "공장/작업실",
+        "aknmn": "제작/제조",
+        "jknmn": "제작자/엔즈니어",
+        "rknmn": "제품/작품",
+        "mknmn": "공장/작업실",
         "knmnj": "만들게"
       }
     },
-    "thnct": {
+    "pemit": {
       "뜻": "접촉하다",
       "thnct": {
-        "athnco": "접촉/연락",
-        "rthnco": "센서/터치패드",
+        "athnc": "접촉/연락",
+        "rthnc": "센서/터치패드",
         "thncj": "접촉하게"
       }
     },
-    "mnent": {
+    "eit": {
       "뜻": "섭취하다",
       "mnent": {
-        "amneno": "식사",
-        "jmneno": "식객",
-        "rmneno": "수저/식기",
-        "mmneno": "식당",
+        "amnen": "식사",
+        "jmnen": "식객",
+        "rmnen": "수저/식기",
+        "mmnen": "식당",
         "mnenj": "먹게"
       }
     },
-    "krikt": {
+    "gadt": {
       "뜻": "수령하다",
       "krikt": {
         "akriko": "수령/수신",
@@ -466,7 +465,7 @@
         "krikj": "받게"
       }
     },
-    "hnect": {
+    "got": {
       "뜻": "시청/관찰하다",
       "hnect": {
         "ahneco": "시청/관찰",
@@ -476,7 +475,7 @@
         "hnecj": "보게"
       }
     },
-    "krnst": {
+    "qaboit": {
       "뜻": "파괴하다",
       "krnst": {
         "akrnso": "파괴/철거",
@@ -487,7 +486,7 @@
         "krnsj": "부수게"
       }
     },
-    "sntnt": {
+    "bifigt": {
       "뜻": "기립하다(일어서다)",
       "sntnt": {
         "asntno": "기립",
@@ -495,7 +494,7 @@
         "sntnj": "서게"
       }
     },
-    "khent": {
+    "jusbit": {
       "뜻": "은폐하다",
       "khent": {
         "akhno": "은폐/잠행",
@@ -504,7 +503,7 @@
         "khenj": "숨게"
       }
     },
-    "kjint": {
+    "juit": {
       "뜻": "휴식하다",
       "kjint": {
         "akjino": "휴식",
@@ -512,7 +511,7 @@
         "kjinj": "쉬게"
       }
     },
-    "jrnjt": {
+    "jist": {
       "뜻": "심다",
       "jrnjt": {
         "ajrnjo": "식재/농경",
@@ -522,7 +521,7 @@
         "jrnjj": "심게"
       }
     },
-    "shint": {
+    "jit": {
       "뜻": "착석하다",
       "sht": {
         "ashino": "착석",
@@ -530,7 +529,7 @@
         "shinj": "앉게"
       }
     },
-    "kinrt": {
+    "oqwct": {
       "뜻": "개방하다",
       "kinrt": {
         "akinro": "개방",
@@ -538,7 +537,7 @@
         "kinrj": "열게"
       }
     },
-    "trtnt": {
+    "kigt": {
       "뜻": "착용하다",
       "trtnt": {
         "atrtno": "착용",
@@ -546,7 +545,7 @@
         "trtnj": "입게"
       }
     },
-    "sirnt": {
+    "lat": {
       "뜻": "취침하다",
       "sirnt": {
         "asirno": "수면",
@@ -555,7 +554,7 @@
         "sirnj": "잠자게"
       }
     },
-    "ghtnt": {
+    "lafat": {
       "뜻": "성장하다",
       "ghtnt": {
         "aghtno": "성장/발전",
@@ -563,7 +562,7 @@
         "ghtnj": "자라게"
       }
     },
-    "kornt": {
+    "lafwt": {
       "뜻": "절단하다",
       "kornt": {
         "akorno": "절단",
@@ -571,7 +570,7 @@
         "kornj": "자르게"
       }
     },
-    "kirnt": {
+    "lagt": {
       "뜻": "파지하다",
       "kirnt": {
         "akirno": "파지",
@@ -579,7 +578,7 @@
         "kirnj": "잡게"
       }
     },
-    "krent": {
+    "lut": {
       "뜻": "제공하다",
       "krent": {
         "akreno": "제공/기부",
@@ -589,7 +588,7 @@
         "krenj": "주게"
       }
     },
-    "snhnt": {
+    "lugt": {
       "뜻": "사망하다",
       "snhnt": {
         "asnhno": "사망",
@@ -597,7 +596,7 @@
         "snhnj": "죽게"
       }
     },
-    "nshnt": {
+    "jaft": {
       "뜻": "생존하다",
       "shnt": {
         "anshno": "생존/삶",
@@ -608,7 +607,7 @@
         "nshnj": "살게"
       }
     },
-    "kermt": {
+    "qotoibt": {
       "뜻": "포획하다",
       "kermt": {
         "akermo": "포획",
@@ -619,7 +618,7 @@
         "kermj": "사냥하게"
       }
     },
-    "tenkt": {
+    "saftat": {
       "뜻": "말하다",
       "tenkt": {
         "atenko": "언어/말하기",
@@ -628,7 +627,7 @@
         "tenkj": "말하게"
       }
     },
-    "kmrnt": {
+    "fuidt": {
       "뜻": "읽다",
       "kmrnt": {
         "akmrno": "독해",
@@ -636,7 +635,7 @@
         "kmrnj": "읽게"
       }
     },
-    "trmnt": {
+    "labjekt": {
       "뜻": "작성하다",
       "trmnt": {
         "atrmno": "작성/아기",
@@ -644,7 +643,7 @@
         "trmnj": "아게"
       }
     },
-    "hnint": {
+    "dudt": {
       "뜻": "듣다",
       "hnint": {
         "ahnino": "청취",
@@ -653,7 +652,7 @@
         "hninj": "듣게"
       }
     },
-    "gjmnt": {
+    "jofilift": {
       "뜻": "소리 지르다",
       "gjmnt": {
         "agjmno": "고성/외침",
@@ -661,7 +660,7 @@
         "gjmnj": "소리치게"
       }
     },
-    "nskrt": {
+    "jobjabt": {
       "뜻": "속삭이다",
       "nskrt": {
         "anskro": "속삭임",
@@ -669,7 +668,7 @@
         "nskrj": "속삭이게"
       }
     },
-    "cmmct": {
+    "jopokt": {
       "뜻": "의사소통하다",
       "cmmct": {
         "acmmco": "대화/소통",
@@ -677,7 +676,7 @@
         "cmmcj": "대화하게"
       }
     },
-    "skunt": {
+    "lifsuct": {
       "뜻": "질문하다",
       "sknt": {
         "askuno": "질문/질의",
@@ -686,7 +685,7 @@
         "skunj": "질문하게"
       }
     },
-    "lunst": {
+    "lifit": {
       "뜻": "자리하다(위치하다)",
       "lunst": {
         "alunso": "자리/위치",
@@ -694,7 +693,7 @@
         "lunstj": "자리하게/위치하게"
       }
     },
-    "slmnt": {
+    "uft": {
       "뜻": "울다",
       "slmnt": {
         "aslmno": "눈물",
@@ -702,7 +701,7 @@
         "slmnj": "울게"
       }
     },
-    "kitnt": {
+    "ujt": {
       "뜻": "웃다",
       "kitnt": {
         "akitno": "웃음",
@@ -712,4 +711,3 @@
     }
   }
 }
-
