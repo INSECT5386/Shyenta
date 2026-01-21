@@ -10,40 +10,19 @@
       "예제": {
         "1": "tntv nki (빠르다 나는)",
         "1.5": "nki tntv (나 빠른)",
-        "2": "tki kermt nki (그것을 포획하다 나는)",
-        "3": "ejneno mni nki (학생 이다 나는)",
-        "4": "vki tdm mntkv rjneno (너 에게 필요하다 교과서)",
-        "5": "tki tntv trckt nkici (그것 빠른 추척하다 우리는)",
+        "2": "tki qotoibt nki (그것을 포획하다 나는)",
+        "3": "ebafmi mni nki (학생 이다 나는)",
+        "4": "vki tdm mntkv rbafmi (너 에게 필요하다 교과서)",
+        "5": "tki tntv mulebt nkici (그것 빠른 추척하다 우리는)",
         "번외": {
-          "1": "knt tntvj (이동하다 빠르게)",
+          "1": "bat tntvj (가다 빠르게)",
           "2": {
-            "2": "nki ktnjt (수리한 나) / 동사도 형용사와 같은 원리로 명사를 수식할 수 있다",
-            "2.5": "tki nki ktnjt (그것을 수리한 나)"
+            "2": "nki jufit (수리한 나) / 동사도 형용사와 같은 원리로 명사를 수식할 수 있다",
+            "2.5": "tki nki jufit (그것을 수리한 나)"
           }
         }
       }
     }
-  },
-  "최소단위": {
-    "a": "아",
-    "i": "이",
-    "u": "우",
-    "e": "에",
-    "o": "오",
-    "h": "위",
-    "f": "ㅍ",
-    "l": "울",
-    "r": "ㄹ",
-    "c": "ㅊ",
-    "k": "ㅋ",
-    "v": "ㅂ",
-    "t": "ㅌ",
-    "s": "ㅅ",
-    "j": "ㅈ",
-    "n": "ㄴ",
-    "m": "ㅁ",
-    "d": "ㄷ",
-    "g": "ㄱ"
   },
   "대명사": {
     "1": {
@@ -122,19 +101,19 @@
   "연결어미 및 구성요소": {
     "rdm": {
       "뜻": "그리고",
-      "예시": "tki ghortd nki rdm, sirntd nki (그것을 마셨다 나는 그리고, 잤다 나는)"
+      "예시": "tki sajistd nki rdm, latd nki (그것을 마셨다 나는 그리고, 잤다 나는)"
     },
     "thdm": {
       "뜻": "그러면",
-      "예시": "tki ghortd vki thdm, ... (그것을 마셨다 너가 그러면, ...)"
+      "예시": "tki sajistd vki thdm, ... (그것을 마셨다 너가 그러면, ...)"
     },
     "sntdm": {
       "뜻": "하지만",
-      "예시": "krint tnvj nki sntdm, mntkvd nki. (이동했다 빠르게 나는 하지만, 피곤했다 나는)"
+      "예시": "bat tnvj nki sntdm, mntkvd nki. (갔다 빠르게 나는 하지만, 피곤했다 나는)"
     },
     "thntrdm": {
       "뜻": "-아니/때문에",
-      "예시": "vki kermtf nki thntrdm, mkrnstdo krnstd vki. (너를 포획할 것이다 나는 ~때문에, 유적을 파괴하다 너가)"
+      "예시": "vki qotoibtf nki thntrdm, mqaboitd qaboit vki. (너를 포획할 것이다 나는 ~때문에, 유적을 파괴하다 너가)"
     },
     "tdm": {
       "뜻": "~에게",
