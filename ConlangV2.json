@@ -3196,20 +3196,20 @@
         "goblokj": "복종하게"
       }
     },
-    "qiekqiekt": {
+    "qiekt": {
       "뜻": "평평하다",
-      "qiekqiekt": {
-        "aqiekqiek": "평평",
-        "qiekqiekv": "평평한",
-        "qiekqiekj": "평평하게"
+      "qiekt": {
+        "aqiek": "평평",
+        "qiekv": "평평한",
+        "qiekj": "평평하게"
       }
     },
-    "kufpukgufpukt": {
+    "kufpukt": {
       "뜻": "울퉁불퉁하다",
-      "kufpukgufpukt": {
-        "akufpukgufpuk": "울퉁불퉁",
-        "kufpukgufpukv": "울퉁불퉁한",
-        "kufpukgufpukj": "울퉁불퉁하게"
+      "kufpukt": {
+        "akufpuk": "울퉁불퉁",
+        "kufpukv": "울퉁불퉁한",
+        "kufpukj": "울퉁불퉁하게"
       }
     },
     "saibbwct": {
@@ -3391,7 +3391,6 @@
     "pwcpwct": {
       "뜻": "튼튼하다",
       "pwcpwct": {
-        "apwcpwc": "튼튼",
         "pwcpwcv": "튼튼한",
         "pwcpwcj": "튼튼하게"
       }
