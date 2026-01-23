@@ -91,11 +91,20 @@
   },
   "접미사": {
     "-j": "부사화",
-    "-v": "형용사 표시",
+    "-v": {
+      "뜻":"형용사 표시",
+      "변형": {
+        "-v": "-한",
+        "-iv": "-적"
+      }
+    },
     "-t": "동사 표시",
     "-s": {
       "뜻": "무파생 명사 표시",
       "설정": "-s는 명사가 아닌 품사의 단어에서 파생된 명사에는 붙즈 않고, 자체로 어근인 명사에만 붙는다."
+    },
+    "-zi": {
+      "뜻": "-주의"
     }
   },
   "연결어미 및 구성요소": {
@@ -121,7 +130,7 @@
     }
   },
   "기본명사": {
-    "gufs": "불",
+    "gufs": {"뜻":"불","변형":{"gufst": "불타다"}},
     "twfbs": "흙",
     "sufs": "물",
     "gafas": "바람",
@@ -131,7 +140,7 @@
     "baks": "강",
     "crnsufs": "바다",
     "vknsufs": "호수",
-    "jafas": "사람",
+    "jafas": {"뜻":"사람", "변형": {"jafasiv": "인간적"}},
     "jibacs": "시간",
     "kedus": "어둠",
     "gims": "빛",
@@ -139,18 +148,18 @@
     "siekjeks": "명성",
     "laifios": "재료",
     "subeis": "무게",
-    "basdoks": "감동",
+    "basdoks": {"뜻":"감동", "변형": {"basdokiv": "감동적"}},
     "balobs": "가족",
     "guckuibis": "분위기",
     "kiektiaks": "영향",
     "boakiks": "과잉",
     "bitois": "기회",
-    "jifleis": "실제",
-    "tiebsieks": "혁명",
+    "jifleis": {"뜻":"실제", "변형": {"jifleisiv": "현실적"}},
+    "tiebsieks": {"뜻":"혁명", "변형": {"tiebsieksiv": "혁명적"}},
     "lakgis": "장비",
-    "jeigus": "세부",
+    "jeigus": {"뜻":"세부", "변형": {"jeigusiv": "세부적"}},
     "geslus": "범주",
-    "sejics": "기계",
+    "sejics": {"뜻":"기계", "변형": {"sejicsiv": "기계적"}},
     "sidkwss": "믿음",
     "dokfios": "동료",
     "daiqijos": "대피소",
@@ -158,89 +167,58 @@
     "kiobwss": "요금",
     "jifiebs": "시력",
     "qukbieks": "풍경",
-    "lecfiabs": "전략",
+    "lecfiabs": {"뜻":"전략","변형":{"lecfiabsiv": "전략적"}},
     "gotess": "보험",
-    "qiosiecs": "표면",
+    "qiosiecs": {"뜻":"표면","변형":{"qiosiecsiv": "표면적"}},
     "jeckiss": "선임",
     "mekjociecs": "청소년",
-    "bwbdacs": "극단",
-    "qobfiebs": "폭력",
+    "bwbdacs": {"뜻":"극단","변형": {"bwbdacsiv": "극단적"}},
+    "qobfiebs": {"뜻":"폭력","변형": {"qobfiebsiv": "폭력적"}},
     "bieibis": "계기",
     "labwss": "자금",
     "joctais": "손해",
     "kifboas": "일과",
     "bamis": "가치",
-    "jiftess": "실험",
     "laicacs": "재난",
-    "jidos": "시도",
     "dosaks": "도망",
     "lafios": "자료",
     "gakgegs": "방법",
     "tiss": "힘",
-    "baiciess": "개념",
-    "jakliks": "상징",
-    "siekkieis": "명예",
     "jekgucs": "성분",
     "lagkifs": "잡일",
     "guquss": "부품",
     "kieigiquss": "예비품",
     "bieclebs": "견적",
-    "qiolucs": "표준",
     "bilucs": "기준",
-    "daifigs": "대립",
     "tasleks": "함정",
-    "jocjaks": "손상",
     "bifs": "길",
     "befis": "거리",
     "jekbiebs": "성격",
     "bwckuecs": "근원",
-    "qiekbiucs": "평균",
     "daidajus": "대다수",
     "gujes": "부서",
-    "gudass": "부담",
-    "kiecjobs": "연속",
-    "lomis": "조치",
     "laijacs": "재산",
     "jeidais": "세대",
     "lefleks": "절정",
-    "lulaks": "주장",
     "kiless": "이점",
     "biuctieks": "균형",
-    "patiegs": "타협",
-    "dailos": "대조",
-    "pofocs": "토론",
-    "tafkics": "할인",
-    "pokmafs": "통찰",
-    "biofius": "교류",
     "kulus": "우주",
-    "jeibieis": "세계",
-    "biefboas": "결과",
     "jekboas": "성과",
     "boacless": "관점",
     "cokjacsufs": "농산물",
     "likuecs": "지원",
-    "kidoks": "이동",
     "toacjwks": "환승",
     "cwkfiebs": "능력",
     "koibacs": "외간",
-    "jaiksufs": "생물",
     "jakkics": "상인",
     "lusics": "주민",
-    "sobqios": "목표",
     "babdos": "각도",
-    "kwijibs": "의식",
     "daifikics": "대리인",
     "daikacs": "대안",
-    "bicieskifs": "기념일",
-    "qotoibs": "포획",
-    "lesfieks": "점령",
-    "kufies": "우려",
     "bebleks": "걱정",
     "kuibis": "위기",
-    "biefleks": "결정",
     "toifos": "회로",
     "jaktoaks": "상황",
-    "toacbieks": "환경",
     "dwkbas": "등가",
     "jicmass": "신참",
     "jickioks": "신용",
@@ -252,33 +230,22 @@
     "tieipaibs": "혜택",
     "tokjus": "홍수",
     "gakjibs": "방식",
-    "baitiebs": "개혁",
-    "baijecs": "개선",
-    "cofiebs": "노력",
-    "golaks": "보장",
     "jekgiefs": "성별",
-    "biefqigs": "결핍",
     "moijos": "최소",
     "moidais": "최대",
-    "basleks": "감정",
     "jecpaiblis": "선택지",
     "kwibiecs": "의견",
     "loaqios": "좌표",
-    "bikuecs": "기원",
     "gugucs": "부분",
     "gikiufs": "비율",
-    "kaikuecs": "애원",
     "boakpaibs": "광택",
     "lecsucbas": "전문가",
     "tiecjaks": "현상",
     "laslaifiebs": "잠재력",
     "lajeis": "자세",
     "soblebs": "목적",
-    "gacdailas": "반대자",
     "toctags": "혼합",
-    "macjeklas": "찬성자",
     "bieibwgs": "계급",
-    "jictos": "신호",
     "mwbsiecs": "측면",
     "bacwkjeks": "가능성",
     "goccwks": "본능",
@@ -292,28 +259,17 @@
     "pwbjeks": "특성",
     "biciesquss": "기념품",
     "baikics": "개인",
-    "bwcbes": "근거",
     "kiefleks": "열정",
     "tobijiss": "호기심",
-    "sujis": "무시",
     "gufkacbass": "불안감",
-    "kifocs": "이론",
     "tablas": "학자",
-    "jisfitabs": "심리학",
     "libkegs": "직업",
-    "meftabs": "철학",
-    "jaiksuftabs": "생물학",
     "biojus": "교수",
-    "suffitabs": "물리학",
     "biekfiebs": "경력",
-    "lifitabs": "지리학",
     "litieks": "지형",
     "labieblwks": "자격증",
     "kiskuecs": "임원",
-    "cocfitabs": "논리학",
     "giectojas": "변호사",
-    "toatabs": "화학",
-    "biekleitabs": "경제학",
     "bakkwis": "강의",
     "poktabs": "통학",
     "biopoks": "교통",
@@ -338,11 +294,9 @@
     "koakbubs": "왕국",
     "baimeblas": "개척자",
     "bubbieks": "국경",
-    "kiebjas": "역사",
     "bodais": "고대",
     "buckics": "군인",
     "subis": "무기",
-    "toabfiufs": "확률",
     "toasuffitabs": "양자역학",
     "gisieks": "비명",
     "liss": "짐",
@@ -351,25 +305,20 @@
     "pwbbuecs": "특권",
     "jekliblas": "성직자",
     "biboacs": "기관",
-    "ligdacs": "집단",
-    "qiecbiecs": "편견",
     "kicloks": "인종",
     "sucsaibs": "문맥",
     "becmubsufs": "건축물",
-    "kikiabis": "이야기",
     "boacbaibs": "관객",
-    "suctabs": "문학",
     "labquss": "작품",
     "luleis": "주제",
     "jikics": "시인",
     "jictoas": "신화",
-    "lecjefs": "전설",
     "lufbefis": "줄거리",
     "toasiecs": "화면",
     "becmubtabs": "건축학",
     "jojefs": "소설",
     "bwckiubs": "근육",
-    "lakbis": "장기",
+    "lakbis": "장기(내장)",
     "jakmes": "상처",
     "lifgieks": "질병",
     "dobs": "독",
@@ -381,11 +330,9 @@
     "kass": "암",
     "kiekkiaks": "영양",
     "jotoas": "소화",
-    "pedwbs": "터득",
     "jicbieks": "신경",
     "kaibmeis": "액체",
     "lecbis": "전기",
-    "tiebjics": "혁신",
     "bakmefs": "강철",
     "suflifs": "물질",
     "lakuecs": "자원",
@@ -408,7 +355,6 @@
     "lufbis": "줄기",
     "basuss": "가뭄",
     "jejibjis": "서식시",
-    "gaimufs": "배출",
     "toajebs": "화석",
     "jaikpaibieis": "생태계",
     "bitus": "기후",
@@ -420,22 +366,19 @@
     "taimuks": "해충",
     "bocmuks": "곤충",
     "lilics": "지진",
-    "jasabs": "사막",
+    "jasabs": "사막", 
     "jisics": "시민",
     "bubsics": "국민",
     "jodwbs": "소득",
     "leidos": "제도",
     "siclulukwis": "민주주의",
-    "jikuis": "시위",
     "gikioks": "비용",
     "geslois": "범죄",
     "qitailas": "피해자",
-    "jackegs": "산업",
     "tabwglas": "하급자",
     "jakboacs": "상관",
     "leclas": "전자",
     "tulas": "후자",
-    "lukdobs": "중독",
     "dejjeiss": "덧셈",
     "mecsuctablas": "천문학자",
     "paidos": "태도",
@@ -468,7 +411,6 @@
     "jujlas": "숫자",
     "kicsufs": "인물",
     "sojwgs": "모습",
-    "jucjes": "순서",
     "kikius": "이유",
     "laikless": "쟁점",
     "sios": "묘",
@@ -485,14 +427,11 @@
     "golobwss": "보조금",
     "boss": "곰",
     "kaibjus": "액수",
-    "taikdoks": "행동",
     "gablas": "박자",
     "gaikiebs": "배역",
     "gefbwss": "벌금",
     "lujos": "주소",
-    "lobecs": "조건",
     "lotaks": "조항",
-    "golwks": "보증",
     "saimeis": "매체",
     "pijius": "티슈",
     "kilas": "이자",
@@ -501,10 +440,240 @@
     "dackes": "단어",
     "jufligs": "술집",
     "lekufs": "저울",
-    "bijufs": "기술",
-    "bicwks": "기능",
     "bokkieis": "공예",
-    "kulujecs": "우주선"
+    "kulujecs": "우주선",
+    "jutabs": {"뜻":"수학","변형":{"jutabsiv": "수학적"}},
+    "biumibs": {"뜻":"규칙","변형": {"biumibsiv": "규칙적인"}},   
+    "jajaks": "사상",
+    "boatabs": {"뜻": "과학","변형": {"boatabsiv": "과학적"}},
+    "bijufs": {"뜻": "기술","변형": {"bijufsiv": "기술적"}},
+    "lobecs": {"뜻": "조건","변형": {"lobecsiv": "조건적"}},
+    "taikdoks": {"뜻": "행동","변형": {"taikdoksiv": "행동적"}},
+    "jucjes": {"뜻": "순서","변형": {"jucjesiv": "순서적"}},
+    "lukdobs": {"뜻": "중독","변형": {"lukdobsiv": "중독적"}},
+    "jackegs": {"뜻": "산업","변형": {"jackegsiv": "산업적"}},
+    "lecjefs": {"뜻": "전설","변형": {"lecjefsiv": "전설적"}},
+    "suctabs": {"뜻": "문학","변형": {"suctabsiv": "문학적"}},
+    "qiecbiecs": {"뜻": "편견","변형": {"qiecbiecsiv": "편견적"}},
+    "ligdacs": {"뜻": "집단","변형": {"ligdacsiv": "집단적"}},
+    "toabfiufs": {"뜻": "확률","변형": {"toabfiufsiv": "확률적"}},
+    "kiebjas": {"뜻": "역사","변형": {"kiebjasiv": "역사적"}},
+    "meftabs": {"뜻": "철학","변형": {"meftabsiv": "철학적"}},
+    "biekleitabs": {"뜻": "경제학","변형": {"biekleitabsiv": "경제학적"}},
+    "toatabs": {"뜻": "화학","변형": {"toatabsiv": "화학적"}},
+    "cocfitabs": {"뜻": "논리학","변형": {"cocfitabsiv": "논리적"}},
+    "lifitabs": {"뜻": "지리학","변형": {"lifitabsiv": "지리적"}},
+    "suffitabs": {"뜻": "물리학","변형": {"suffitabsiv": "물리적"}},
+    "jaiksuftabs": {"뜻": "생물학","변형": {"jaiksuftabsiv": "생물학적"}},
+    "jisfitabs": {"뜻": "심리학","변형": {"jisfitabsiv": "심리적"}},
+    "kifocs": {"뜻": "이론","변형": {"kifocsiv": "이론적"}},
+    "basleks": {"뜻": "감정","변형": {"basleksiv": "감정적"}},
+    "toacbieks": {"뜻": "환경","변형": {"toacbieksiv": "환경적"}},
+    "kwijibs": {"뜻": "의식","변형": {"kwijibsiv": "의식적"}},
+    "jaiksufs": {"뜻": "생물","변형": {"jaiksufsiv": "생물적"}},
+    "jeibieis": {"뜻": "세계","변형": {"jeibieisiv": "세계적"}},
+    "biefboas": {"뜻": "결과","변형": {"biefboasiv": "결과적"}},
+    "qiekbiucs": {"뜻": "평균","변형": {"qiekbiucsiv": "평균적"}},
+    "qiolucs": {"뜻": "표준","변형": {"qiolucsiv": "표준적"}},
+    "baiciess": {"뜻": "개념","변형": {"baiciessiv": "개념적"}},
+    "jakliks": {"뜻": "상징","변형": {"jakliksiv": "상징적"}},
+    "siekkieis": {"뜻": "명예","변형": {"siekkieisiv": "명예적"}},
+    "koigus": "외부",
+    "caigus": "내부",
+    "kafais": "아래",
+    "kuis": "위",
+    "twisaks": "희망",
+    "toalaklis": "화장지",
+    "tiudaiqocs": "휴대폰",
+    "toalakjifs": "화장실",
+    "toajacs": "화산",
+    "lejulis": "저수지",
+    "tiekleis": "형제",
+    "lasais": "자매",
+    "cassais": "남매",
+    "taikjeks": "행성",
+    "taigiecs": "해변",
+    "takbus": "항구",
+    "tafkagelis": "할아버지",
+    "tafsecis": "할머니",
+    "takiacjaibs": "하얀색",
+    "qis": "피",
+    "qonws": "포크",
+    "judbafabs": "숟가락",
+    "lejbafabs": "젓가락",
+    "qieclis": "편지",
+    "kiecqifs": "연필",
+    "gofqeics": "볼펜",
+    "qifbibus": "필기구",
+    "beijiqacs": "게시판",
+    "qafacjaibs": "파란색",
+    "peiffeigilecs": "텔레비전",
+    "maibjaks": "책상",
+    "pefs": "털",
+    "paikiaks": "태양",
+    "lacs": "잔",
+    "nafs": "칼",
+    "naqeis": "카페",
+    "naseifas": "카메라",
+    "nadws": "카드",
+    "mijjofs": "칫솔",
+    "mikiabs": "치약",
+    "mijifs": "치실",
+    "micbus": "친구",
+    "mofobjaibs": "초록색",
+    "maibs": "책",
+    "maksucs": "창문",
+    "kiufis": "유리",
+    "ligs": "집",
+    "licfos": "진로",
+    "libus": "지구",
+    "jujeks": "수성",
+    "bwsjeks": "금성",
+    "toajeks": "화성",
+    "sobjeks": "목성",
+    "pojeks": "토성",
+    "meckoakjeks": "천왕성",
+    "taikoakjeks": "해왕성",
+    "siekkoakjeks": "명왕성",
+    "libags": "지갑",
+    "lutoakjaibs": "주황색",
+    "lokkis": "종이",
+    "logusos": "조부모",
+    "gusos": "부모",
+    "legjis": "접시",
+    "lesjiss": "점심",
+    "kuecjus": "원수",
+    "leciebs": "저녁",
+    "jioqiks": "쇼핑",
+    "lakius": "자유",
+    "kikujs": "이웃",
+    "kigufs": "이불",
+    "daskios": "담요",
+    "kifwss": "이름",
+    "kiggafs": "이빨",
+    "kwilas": "의자",
+    "kwijas": "의사",
+    "kwskabs": "음악",
+    "cofais": "노래",
+    "kwsjibs": "음식",
+    "kuimis": "위치",
+    "kuclecjas": "운전사",
+    "kiobjifs": "욕실",
+    "kiofis": "요리",
+    "koaks": "왕",
+    "daipokfieks": "대통령",
+    "kofis": "오리",
+    "kocwfs": "오늘",
+    "keleis": "어제",
+    "caikifs": "내일",
+    "kieijufjas": "예술사",
+    "bwblaks": "극장",
+    "kiektoas": "영화",
+    "kiekjaks": "영상",
+    "kiefjois": "열쇠",
+    "lasufjois": "자물쇠",
+    "kiefs": "열",
+    "kieckics": "연인",
+    "kiecbis": "연기",
+    "kiebs": "역",
+    "kiefwss": "여름",
+    "keicelis": "에너지",
+    "keckes": "언어",
+    "kesecis": "어머니",
+    "kiaks": "양",
+    "kamiss": "아침",
+    "kakis": "아이",
+    "kagelis": "아버지",
+    "kabis": "아기",
+    "jeisiecdais": "세면대",
+    "siecs": "면",
+    "jibsufs": "식물",
+    "kiamais": "야채",
+    "jilaks": "시장",
+    "jibdaks": "식당",
+    "jilabs": "시작",
+    "bbwps": "끝",
+    "jibofs": "시골",
+    "gepwcs": "버튼",
+    "juqs": "숲",
+    "jubecs": "수건",
+    "jocs": "손",
+    "gafs": "발",
+    "joliquss": "소지품",
+    "jogakboacs": "소방관",
+    "jofis": "소리",
+    "jos": "소",
+    "judos": "수도",
+    "jaibs": "색",
+    "jais": "새",
+    "jatois": "사회",
+    "tobass": "호감",
+    "jabecs": "사건",
+    "ggafbacjaibs": "빨간색",
+    "gicus": "비누",
+    "gis": "비",
+    "goss": "봄",
+    "gofajaibs": "보라색",
+    "giekkuecs": "병원",
+    "giefs": "별",
+    "mecduks": "천둥",
+    "gaiss": "뱀",
+    "gaikus": "배우",
+    "gass": "밤",
+    "gabsufboacs": "박물관",
+    "gafass": "바람",
+    "gadabs": "바닥",
+    "sucs": "문",
+    "sulibais": "무지개",
+    "sofais": "모래",
+    "soduss": "모둠",
+    "saikifs": "매일",
+    "sajs": "맛",
+    "sakwfs": "마을",
+    "dwkgufs": "등불",
+    "doailis": "돼지",
+    "dofs": "돌",
+    "docs": "돈",
+    "dojis": "도시",
+    "bubbas": "국가",
+    "dojeboacs": "도서관",
+    "dosagaiss": "도마뱀",
+    "dofos": "도로",
+    "dafbs": "닭",
+    "dafs": "달",
+    "dacmeis": "단체",
+    "cois": "뇌",
+    "coklaks": "농장",
+    "cofacjaibs": "노란색",
+    "casjaibs": "남색",
+    "cafjjis": "날씨",
+    "bbuss": "꿈",
+    "bboms": "꽃",
+    "bbeglifs": "껍질",
+    "bikebs": "기억",
+    "bifwss": "기름",
+    "bufwss": "구름",
+    "boaklaks": "광장",
+    "bokkuecs": "공원",
+    "bokbis": "공기",
+    "botiaks": "고향",
+    "bokiakkis": "고양이",
+    "bobis": "고기",
+    "bieilefs": "계절",
+    "biekmafs": "경찰",
+    "biekufs": "겨울",
+    "beskwcjaibs": "검은색",
+    "bais": "개",
+    "bacjibs": "간식",
+    "bamubs": "가축",
+    "baleks": "가정",
+    "bakwfs": "가을",
+    "bagaks": "가방",
+    "babus": "가구",
+    "cuckics": "눈(동물의)",
+    "cucmecs": "눈(내리는)",
+    "dafikics": "다리(동물의)",
+    "dafimecs": "다리(건너는)"
   },
   "기본부사": {
     "coj": "부정",
@@ -2169,7 +2338,8 @@
       "gacdait": {
         "agacdai": "반대",
         "gacdaiv": "반대한",
-        "gacdaij": "반대하게"
+        "gacdaij": "반대하게",
+        "jgacdai": "반대자"
       }
     },
     "letakt": {
@@ -2209,7 +2379,8 @@
       "macjekt": {
         "amacjek": "찬성",
         "macjekv": "찬성한",
-        "macjekj": "찬성하게"
+        "macjekj": "찬성하게",
+        "jmacjek": "찬성자"
       }
     },
     "mubut": {
@@ -3858,6 +4029,576 @@
         "abido": "기도",
         "bidov": "기도한",
         "bidoj": "기도하게"
+      }
+    },
+    "kibjubt": {
+      "뜻": "익숙하다",
+      "kibjubt": {
+        "akibjub": "익숙",
+        "kibjubv": "익숙한",
+        "kibjubj": "익숙하게"
+      }
+    },
+    "jiftest": {
+      "뜻": "실험하다",
+      "jiftest": {
+        "ajiftes": "실험",
+        "jiftesv": "실험한",
+        "jiftesj": "실험하게"
+      }
+    },
+    "jidot": {
+      "뜻": "시도하다",
+      "jidot": {
+        "ajido": "시도",
+        "jidov": "시도한",
+        "jidoj": "시도하게"
+      }
+    },
+    "daifigt": {
+      "뜻": "대립하다",
+      "daifigt": {
+        "adaifig": "대립",
+        "daifigv": "대립한",
+        "daifigj": "대립하게"
+      }
+    },
+    "jocjakt": {
+      "뜻": "손상하다",
+      "jocjakt": {
+        "ajocjak": "손상",
+        "jocjakv": "손상한",
+        "jocjakj": "손상하게"
+      }
+    },
+    "golwkt": {
+      "뜻": "보증하다",
+      "golwkt": {
+        "agolwk": "보증",
+        "golwkv": "보증한",
+        "golwkj": "보증하게"
+      }
+    },
+    "jikuit": {
+      "뜻": "시위하다",
+      "jikuit": {
+        "ajikui": "시위",
+        "jikuiv": "시위한",
+        "jikuij": "시위하게"
+      }
+    },
+    "gaimuft": {
+      "뜻": "배출하다",
+      "gaimuft": {
+        "agaimuf": "배출",
+        "gaimufv": "배출한",
+        "gaimufj": "배출하게"
+      }
+    },
+    "tiebjict": {
+      "뜻": "혁신하다",
+      "tiebjict": {
+        "atiebjic": "혁신",
+        "tiebjicv": "혁신한",
+        "tiebjicj": "혁신하게"
+      }
+    },
+    "pedwbt": {
+      "뜻": "터득하다",
+      "pedwbt": {
+        "apedwb": "터득",
+        "pedwbv": "터득한",
+        "pedwbj": "터득하게"
+      }
+    },
+    "kikiabit": {
+      "뜻": "이야기하다",
+      "kikiabit": {
+        "akikiabi": "이야기",
+        "kikiabiv": "이야기한",
+        "kikiabij": "이야기하게"
+      }
+    },
+    "bwcbet": {
+      "뜻": "근거하다",
+      "bwcbet": {
+        "abwcbe": "근거",
+        "bwcbev": "근거한",
+        "bwcbej": "근거하게"
+      }
+    },
+    "jictot": {
+      "뜻": "신호하다",
+      "jictot": {
+        "ajicto": "신호",
+        "jictov": "신호한",
+        "jictoj": "신호하게"
+      }
+    },
+    "kaikuect": {
+      "뜻": "애원하다",
+      "kaikuect": {
+        "akaikuec": "애원",
+        "kaikuecv": "애원한",
+        "kaikuecj": "애원하게"
+      }
+    },
+    "bikuect": {
+      "뜻": "기원하다",
+      "bikuect": {
+        "abikuec": "기원",
+        "bikuecv": "기원한",
+        "bikuecj": "기원하게"
+      }
+    },
+    "biefqigt": {
+      "뜻": "결핍하다",
+      "biefqigt": {
+        "abiefqig": "결핍",
+        "biefqigv": "결핍한",
+        "biefqigj": "결핍하게"
+      }
+    },
+    "golakt": {
+      "뜻": "보장하다",
+      "golakt": {
+        "agolak": "보장",
+        "golakv": "보장한",
+        "golakj": "보장하게"
+      }
+    },
+    "cofiebt": {
+      "뜻": "노력하다",
+      "cofiebt": {
+        "acofieb": "노력",
+        "cofiebv": "노력한",
+        "cofiebj": "노력하게"
+      }
+    },
+    "baiject": {
+      "뜻": "개선하다",
+      "baiject": {
+        "abaijec": "개선",
+        "baijecv": "개선한",
+        "baijecj": "개선하게"
+      }
+    },
+    "baitiebt": {
+      "뜻": "개혁하다",
+      "baitiebt": {
+        "abaitieb": "개혁",
+        "baitiebv": "개혁한",
+        "baitiebj": "개혁하게"
+      }
+    },
+    "kufiet": {
+      "뜻": "우려하다",
+      "kufiet": {
+        "akufie": "우려",
+        "kufiev": "우려한",
+        "kufiej": "우려하게"
+      }
+    },
+    "lesfiekt": {
+      "뜻": "점령하다",
+      "lesfiekt": {
+        "alesfiek": "점령",
+        "lesfiekv": "점령한",
+        "lesfiekj": "점령하게"
+      }
+    },
+    "sobqiot": {
+      "뜻": "목표하다",
+      "sobqiot": {
+        "asobqio": "목표",
+        "sobqiov": "목표한",
+        "sobqioj": "목표하게"
+      }
+    },
+    "kidokt": {
+      "뜻": "이동하다",
+      "kidokt": {
+        "akidok": "이동",
+        "kidokv": "이동한",
+        "kidokj": "이동하게"
+      }
+    },
+    "biofiut": {
+      "뜻": "교류하다",
+      "biofiut": {
+        "abiofiu": "교류",
+        "biofiuv": "교류한",
+        "biofiuj": "교류하게"
+      }
+    },
+    "pokmaft": {
+      "뜻": "통찰하다",
+      "pokmaft": {
+        "apokmaf": "통찰",
+        "pokmafv": "통찰한",
+        "pokmafj": "통찰하게"
+      }
+    },
+    "tafkict": {
+      "뜻": "할인하다",
+      "tafkict": {
+        "atafkic": "할인",
+        "tafkicv": "할인한",
+        "tafkicj": "할인하게"
+      }
+    },
+    "pofoct": {
+      "뜻": "토론하다",
+      "pofoct": {
+        "apofoc": "토론",
+        "pofocv": "토론한",
+        "pofocj": "토론하게"
+      }
+    },
+    "lomit": {
+      "뜻": "조치하다",
+      "lomit": {
+        "alomi": "조치",
+        "lomiv": "조치한",
+        "lomij": "조치하게"
+      }
+    },
+    "kiecjobt": {
+      "뜻": "연속하다",
+      "kiecjobt": {
+        "akiecjob": "연속",
+        "kiecjobv": "연속한",
+        "kiecjobj": "연속하게"
+      }
+    },
+    "gudast": {
+      "뜻": "부담하다",
+      "gudast": {
+        "agudas": "부담",
+        "gudasv": "부담한",
+        "gudasj": "부담하게"
+      }
+    },
+    "jikuect": {
+      "뜻": "시원하다",
+      "jikuect": {
+        "ajikuec": "시원",
+        "jikuecv": "시원한",
+        "jikuecj": "시원하게"
+      }
+    },
+    "bacdact": {
+      "뜻": "간단하다",
+      "bacdact": {
+        "abacdac": "간단",
+        "bacdacv": "간단한",
+        "bacdacj": "간단하게"
+      }
+    },
+    "ddobt": {
+      "뜻": "똑똑하다",
+      "ddobt": {
+        "addob": "똑똑",
+        "ddobv": "똑똑한",
+        "ddobj": "똑똑하게"
+      }
+    },
+    "toafdokt": {
+      "뜻": "활동하다",
+      "toafdokt": {
+        "atoafdok": "활동",
+        "toafdokv": "활동한",
+        "toafdokj": "활동하게"
+      }
+    },
+    "tieskot": {
+      "뜻": "혐오하다",
+      "tieskot": {
+        "atiesko": "혐오",
+        "tieskov": "혐오한",
+        "tieskoj": "혐오하게"
+      }
+    },
+    "guccot": {
+      "뜻": "분노하다",
+      "guccot": {
+        "agucco": "분노",
+        "guccov": "분노한",
+        "guccoj": "분노하게"
+      }
+    },
+    "taikgobt": {
+      "뜻": "행복하다",
+      "taikgobt": {
+        "ataikgob": "행복",
+        "taikgobv": "행복한",
+        "taikgobj": "행복하게"
+      }
+    },
+    "kiakmit": {
+      "뜻": "양치하다",
+      "kiakmit": {
+        "akiakmi": "양치",
+        "kiakmiv": "양치한",
+        "kiakmij": "양치하게"
+      }
+    },
+    "lifput": {
+      "뜻": "질투하다",
+      "lifput": {
+        "alifpu": "질투",
+        "lifpuv": "질투한",
+        "lifpuj": "질투하게"
+      }
+    },
+    "lecdaft": {
+      "뜻": "전달하다",
+      "lecdaft": {
+        "alecdaf": "전달",
+        "lecdafv": "전달한",
+        "lecdafj": "전달하게"
+      }
+    },
+    "kwijist": {
+      "뜻": "의심하다",
+      "kwijist": {
+        "akwijis": "의심",
+        "kwijisv": "의심한",
+        "kwijisj": "의심하게"
+      }
+    },
+    "kiudot": {
+      "뜻": "유도하다",
+      "kiudot": {
+        "akiudo": "유도",
+        "kiudov": "유도한",
+        "kiudoj": "유도하게"
+      }
+    },
+    "kuilakt": {
+      "뜻": "위장하다",
+      "kuilakt": {
+        "akuilak": "위장",
+        "kuilakv": "위장한",
+        "kuilakj": "위장하게"
+      }
+    },
+    "kucgact": {
+      "뜻": "운반하다",
+      "kucgact": {
+        "akucgac": "운반",
+        "kucgacv": "운반한",
+        "kucgacj": "운반하게"
+      }
+    },
+    "kiokjet": {
+      "뜻": "용서하다",
+      "kiokjet": {
+        "akiokje": "용서",
+        "kiokjev": "용서한",
+        "kiokjej": "용서하게"
+      }
+    },
+    "jeimebt": {
+      "뜻": "세척하다",
+      "jeimebt": {
+        "ajeimeb": "세척",
+        "jeimebv": "세척한",
+        "jeimebj": "세척하게"
+      }
+    },
+    "jafakt": {
+      "뜻": "사랑하다",
+      "jafakt": {
+        "ajafak": "사랑",
+        "jafakv": "사랑한",
+        "jafakj": "사랑하게"
+      }
+    },
+    "gobkiokt": {
+      "뜻": "복용하다",
+      "gobkiokt": {
+        "agobkiok": "복용",
+        "gobkiokv": "복용한",
+        "gobkiokj": "복용하게"
+      }
+    },
+    "golot": {
+      "뜻": "보조하다",
+      "golot": {
+        "agolo": "보조",
+        "golov": "보조한",
+        "goloj": "보조하게"
+      }
+    },
+    "dogaft": {
+      "뜻": "도발하다",
+      "dogaft": {
+        "adogaf": "도발",
+        "dogafv": "도발한",
+        "dogafj": "도발하게"
+      }
+    },
+    "daidagt": {
+      "뜻": "대답하다",
+      "daidagt": {
+        "adaidag": "대답",
+        "daidagv": "대답한",
+        "daidagj": "대답하게"
+      }
+    },
+    "cokjat": {
+      "뜻": "농사하다",
+      "cokjat": {
+        "acokja": "농사",
+        "cokjav": "농사한",
+        "cokjaj": "농사하게"
+      }
+    },
+    "bokbiebt": {
+      "뜻": "공격하다",
+      "bokbiebt": {
+        "abokbieb": "공격",
+        "bokbiebv": "공격한",
+        "bokbiebj": "공격하게"
+      }
+    },
+    "bokgut": {
+      "뜻": "공부하다",
+      "bokgut": {
+        "abokgu": "공부",
+        "bokguv": "공부한",
+        "bokguj": "공부하게"
+      }
+    },
+    "bieflekt": {
+      "뜻": "결정하다",
+      "bieflekt": {
+        "abieflek": "결정",
+        "bieflekv": "결정한",
+        "bieflekj": "결정하게"
+      }
+    },
+    "qaft": {
+      "뜻": "팔다",
+      "qaft": {
+        "qafv": "판",
+        "qafj": "팔게",
+        "mqaf": "상점"
+      }
+    },
+    "twfwt": {
+      "뜻": "흐르다",
+      "twfwt": {
+        "twfwv": "흐른",
+        "twfwj": "흐르게"
+      }
+    },
+    "puibit": {
+      "뜻": "튀기다",
+      "puibit": {
+        "puibiv": "튀긴",
+        "puibij": "튀기게"
+      }
+    },
+    "ddaifit": {
+      "뜻": "때리다",
+      "ddaifit": {
+        "ddaifiv": "때린",
+        "ddaifij": "때리게"
+      }
+    },
+    "mat": {
+      "뜻": "차다",
+      "mat": {
+        "mav": "찬",
+        "maj": "차게"
+      }
+    },
+    "kilt": {
+      "뜻": "잊다",
+      "kilt": {
+        "kilv": "잊은",
+        "kilj": "잊게"
+      }
+    },
+    "kufgulilt": {
+      "뜻": "울부짖다",
+      "kufgulilt": {
+        "kufgulilv": "울부짖은",
+        "kufgulilj": "울부짖게"
+      }
+    },
+    "keffit": {
+      "뜻": "얼리다",
+      "keffit": {
+        "keffiv": "얼린",
+        "keffij": "얼리게"
+      }
+    },
+    "lebt": {
+      "뜻": "적다",
+      "lebt": {
+        "lebv": "적은",
+        "lebj": "적게"
+      }
+    },
+    "sijolijt": {
+      "뜻": "미소 짓다",
+      "sijolijt": {
+        "asijolij": "미소",
+        "sijolijv": "미소 짓는",
+        "sijolijj": "미소 짓게"
+      }
+    },
+    "sujegt": {
+      "뜻": "무섭다",
+      "sujegt": {
+        "asujeg": "공포",
+        "sujegv": "무섭운",
+        "sujegj": "무섭게"
+      }
+    },
+    "cwbbit": {
+      "뜻": "느끼다",
+      "cwbbit": {
+        "cwbbiv": "느낀",
+        "cwbbij": "느끼게"
+      }
+    },
+    "cobkit": {
+      "뜻": "녹이다",
+      "cobkit": {
+        "cobkiv": "녹인",
+        "cobkij": "녹이게"
+      }
+    },
+    "mugt": {
+      "뜻": "춥다",
+      "mugt": {
+        "mugv": "춥운",
+        "mugj": "춥게"
+      }
+    },
+    "llafgt": {
+      "뜻": "짧다",
+      "llafgt": {
+        "llafgv": "짧은",
+        "llafgj": "짧게"
+      }
+    },
+    "lott": {
+      "뜻": "좋다",
+      "lott": {
+        "lotv": "좋은",
+        "lotj": "좋게"
+      }
+    },
+    "kefiegt": {
+      "뜻": "어렵다",
+      "kefiegt": {
+        "kefiegv": "어려운",
+        "kefiegj": "어렵게"
       }
     }
   }
