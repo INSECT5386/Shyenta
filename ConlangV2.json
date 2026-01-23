@@ -8,17 +8,17 @@
       "4": "목적어-'에게/께'-동사-주어",
       "5": "목적어-'목적어를 설명하는 보어'-동사-주어",
       "예제": {
-        "1": "tntnt nki (빠르다 나는)",
-        "1.5": "nki tntnv (나 빠른)",
-        "2": "tki qotoibt nki (그것을 포획하다 나는)",
-        "3": "ebafmi mni nki (학생 이다 나는)",
-        "4": "vki tdm mrtnt rbafmi (너 에게 필요하다 교과서)",
-        "5": "tki tntnv mulebt nkici (그것 빠른 추척하다 우리는)",
+        "1": "tntnt ca (빠르다 나는)",
+        "1.5": "ca tntnv (나 빠른)",
+        "2": "ke qotoibt ca (그것을 포획하다 나는)",
+        "3": "ebafmi mni ca (학생 이다 나는)",
+        "4": "ke tdm mrtnt rbafmi (너 에게 필요하다 교과서)",
+        "5": "ke tntnv mulebt caci (그것 빠른 추척하다 우리는)",
         "번외": {
-          "1": "bat tntvj (가다 빠르게)",
+          "1": "bat tntnj (가다 빠르게)",
           "2": {
-            "2": "nki jufiv (수리한 나)",
-            "2.5": "tki nki jufiv (그것을 수리한 나)"
+            "2": "ca jufiv (수리한 나)",
+            "2.5": "ke ca jufiv (그것을 수리한 나)"
           }
         }
       }
@@ -26,24 +26,24 @@
   },
   "대명사": {
     "1": {
-      "nki": "나 (1인칭 단수)",
-      "nkici": "우리 (1인칭 복수)"
+      "ca": "나 (1인칭 단수)",
+      "caci": "우리 (1인칭 복수)"
     },
     "2": {
-      "vki": "너 (2인칭 단수)",
-      "vkici": "너희들 (2인칭 복수)"
+      "ce": "너 (2인칭 단수)",
+      "ceci": "너희들 (2인칭 복수)"
     },
     "3": {
-      "hki": "그 (3인칭 남성)",
-      "ski": "그녀 (3인칭 여성 단수)",
-      "tki": "그것 (사물 단수)",
-      "hkici": "그들 (3인칭 복수)"
+      "te": "그 (3인칭 남성)",
+      "be": "그녀 (3인칭 여성 단수)",
+      "ke": "그것 (사물 단수)",
+      "teci": "그들 (3인칭 복수)"
     },
     "이외": {
-      "tnki": "이것",
-      "tnkici": "이것들",
-      "tmki": "저것",
-      "tmkici": "저것들"
+      "kibe": "이것",
+      "kibeci": "이것들",
+      "lebe": "저것",
+      "lebeci": "저것들"
     }
   },
   "조동사": {
@@ -108,25 +108,25 @@
     }
   },
   "연결어미 및 구성요소": {
-    "rdm": {
+    "kibom": {
       "뜻": "그리고",
-      "예시": "tki sajistd nki rdm, latd nki (그것을 마셨다 나는 그리고, 잤다 나는)"
+      "예시": "ke sajistd ca kibom, latd ca (그것을 마셨다 나는 그리고, 잤다 나는)"
     },
-    "thdm": {
+    "fesiem": {
       "뜻": "그러면",
-      "예시": "tki sajistd vki thdm, ... (그것을 마셨다 너가 그러면, ...)"
+      "예시": "ke sajistd ce fesiem, ... (그것을 마셨다 너가 그러면, ...)"
     },
-    "sntdm": {
+    "lisacm": {
       "뜻": "하지만",
-      "예시": "bat tntnj nki sntdm, mntkntd nki. (갔다 빠르게 나는 하지만, 피곤했다 나는)"
+      "예시": "bat tntnj ca lisacm, mntkntd ca. (갔다 빠르게 나는 하지만, 피곤했다 나는)"
     },
-    "thntrdm": {
+    "daisucm": {
       "뜻": "-아니/때문에",
-      "예시": "vki qotoibtf nki thntrdm, mqaboitd qaboit vki. (너를 포획할 것이다 나는 ~때문에, 유적을 파괴하다 너가)"
+      "예시": "ce qotoibtf ca daisucm, mqaboitd qaboit ce. (너를 포획할 것이다 나는 ~때문에, 유적을 파괴하다 너가)"
     },
-    "tdm": {
+    "beim": {
       "뜻": "~에게",
-      "예시": "vki tdm mrtnt rjno (너 에게 필요하다 교과서)"
+      "예시": "ce beim mrtnt rbafmi (너 에게 필요하다 교과서)"
     }
   },
   "기본명사": {
@@ -721,7 +721,8 @@
         },
         "ebafmi": "학생",
         "rbafmi": "교과서",
-        "bafmij": "교육하게"
+        "bafmij": "가르치게",
+        "bafmiv": "가르친"
       }
     },
     "daibit": {
@@ -3741,7 +3742,8 @@
       "qiekt": {
         "aqiek": "평평",
         "qiekv": "평평한",
-        "qiekj": "평평하게"
+        "qiekj": "평평하게",
+        "mqiek": "평지"
       }
     },
     "kufpukt": {
@@ -4501,11 +4503,11 @@
         "puibij": "튀기게"
       }
     },
-    "ddaifit": {
+    "daifit": {
       "뜻": "때리다",
-      "ddaifit": {
-        "ddaifiv": "때린",
-        "ddaifij": "때리게"
+      "daifit": {
+        "daifiv": "때린",
+        "daifij": "때리게"
       }
     },
     "mat": {
@@ -4599,6 +4601,14 @@
       "kefiegt": {
         "kefiegv": "어려운",
         "kefiegj": "어렵게"
+      }
+    },
+    "twibuit": {
+      "뜻": "희귀하다",
+      "twibuit": {
+        "atwibui": "희귀",
+        "twibuiv": "희귀한",
+        "twibuij": "희귀하게"
       }
     }
   }
