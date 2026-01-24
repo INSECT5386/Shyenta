@@ -1512,12 +1512,12 @@
         "mosij": "총명하게"
       }
     },
-    "koacjut": {
+    "cijut": {
       "뜻": "완수하다",
-      "koacjut": {
-        "akoacju": "완수",
-        "koacjuv": "완수한",
-        "koacjuj": "완수하게"
+      "cijut": {
+        "aciju": "완수",
+        "cijuv": "완수한",
+        "cijuj": "완수하게"
       }
     },
     "kiukift": {
@@ -4599,3 +4599,4 @@
     }
   }
 }
+
