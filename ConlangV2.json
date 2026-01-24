@@ -1320,12 +1320,12 @@
         "muqaj": "출판하게"
       }
     },
-    "lakjibt": {
+    "kjibt": {
       "뜻": "장식하다",
-      "lakjibt": {
-        "alakjib": "장식",
-        "lakjibv": "장식한",
-        "lakjibj": "장식하게"
+      "kjibt": {
+        "akjib": "장식",
+        "kjibv": "장식한",
+        "kjibj": "장식하게"
       }
     },
     "gaktait": {
@@ -4599,3 +4599,4 @@
     }
   }
 }
+
