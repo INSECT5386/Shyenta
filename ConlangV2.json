@@ -1,8 +1,8 @@
 {
   "설정": {
     "문법": [
-        "주어-동사 / goss bat : 봄이 가다",
-        "주어-동사-목적어 / ca bat kwfom jilaks : 나는 간다 으로 시장 / ca mrtnt ke : 나는 필요하다 그것이"
+        "주어-동사 / gosus bajiu : 봄이 가다",
+        "주어-동사-목적어 / ca bajiu kwfom jilakus : 나는 간다 으로 시장 / ca mednu ke : 나는 필요하다 그것이"
       ]
   },
   "대명사": {
@@ -79,7 +79,6 @@
         "-iv": "-적"
       }
     },
-    "-t": "동사 표시",
     "-us": {
       "뜻": "무파생 명사 표시",
       "설정": "-us는 명사가 아닌 품사의 단어에서 파생된 명사에는 붙즈 않고, 자체로 어근인 명사에만 붙는다."
@@ -681,86 +680,86 @@
     "설정": {
       "1": "동사의 과거형은 동사에 'd'를 붙인다.",
       "2": "동사의 미래형은 동사에 'f'를 붙인다.",
-      "3": "동사의 기본형은 'u'로 끝난다. 동사의 과거형을 'd'로 끝난다. 동사의 미래형은 'f'로 끝난다."
+      "3": "동사의 기본형은 모음으로 끝난다. 동사의 과거형을 'd'로 끝난다. 동사의 미래형은 'f'로 끝난다."
     },
-    "bajiu": {
+    "bajna": {
       "뜻": "가다",
-      "bajiu": {
-        "abaji": "산책/조깅",
-        "elbaji": "걷는 자",
-        "mubaji": "산책로/공원",
-        "bajij": "걷게/이동하게"
+      "bajna": {
+        "abajn": "산책/조깅",
+        "elbajn": "걷는 자",
+        "mubajn": "산책로/공원",
+        "bajnj": "걷게/이동하게"
       }
     },
-    "gemiu": {
+    "genmi": {
       "뜻": "가르치다",
-      "gemiu": {
-        "agemi": "교육",
-        "elgemi": "선생님",
-        "mugemi": {
+      "genmi": {
+        "agenm": "교육",
+        "elgenm": "선생님",
+        "mugenm": {
           "뜻": "학교",
-          "mugemi": {
-            "mugemivtk": "초등학교",
-            "mugemigrnk": "중학교",
-            "mugemihrnk": "고등학교",
-            "mugemicrnf": "대학교",
-            "mugemicmnk": "학원"
+          "mugenm": {
+            "mugenmvtk": "초등학교",
+            "mugenmgrnk": "중학교",
+            "mugenmhrnk": "고등학교",
+            "mugenmcrnf": "대학교",
+            "mugenmcmnk": "학원"
           }
         },
-        "egemi": "학생",
-        "thgemi": "교과서",
-        "gemij": "가르치게",
-        "gemiv": "가르친"
+        "egenm": "학생",
+        "thgenm": "교과서",
+        "genmj": "가르치게",
+        "genmv": "가르친"
       }
     },
-    "debiu": {
+    "dabtu": {
       "뜻": "대기하다",
-      "debiu": {
-        "adebi": "대기/기다림",
-        "eldebi": "대기자",
-        "mudebi": "대기실/정류장",
-        "debij": "대기하게"
+      "dabtu": {
+        "adabt": "대기/기다림",
+        "eldabt": "대기자",
+        "mudabt": "대기실/정류장",
+        "dabtj": "대기하게"
       }
     },
-    "jakeu": {
+    "jamne": {
       "뜻": "사육하다",
-      "jakeu": {
-        "ajaku": "사육",
-        "eljaku": "사육자",
-        "ejaku": "사육 당하는 것",
-        "thjaku": "사육 도구",
-        "mujaku": "사육장",
-        "jakuj": "사육하게"
+      "jamne": {
+        "ajamn": "사육",
+        "eljamn": "사육자",
+        "ejamn": "사육 당하는 것",
+        "thjamn": "사육 도구",
+        "mujamn": "사육장",
+        "jamnj": "사육하게"
       }
     },
-    "jufiu": {
+    "jufno": {
       "뜻": "수리하다",
-      "jufiu": {
-        "ajufi": "수리",
-        "eljufi": "수리자",
-        "thjufi": "수리 도구",
-        "mujufi": "서비스 센터",
-        "jufij": "수리하게"
+      "jufno": {
+        "ajufn": "수리",
+        "eljufn": "수리자",
+        "thjufn": "수리 도구",
+        "mujufn": "서비스 센터",
+        "jufnj": "수리하게"
       }
     },
-    "cajnu": {
+    "cajna": {
       "뜻": "날다",
-      "cajnu": {
-        "acaju": "비행/항공",
-        "elcaju": "비행기 조종자(=파일럿)",
-        "thcaju": "비행기",
-        "mucaju": "활주로/공항",
-        "cajuj": "비행하게"
+      "cajna": {
+        "acajn": "비행/항공",
+        "elcajn": "비행기 조종자(=파일럿)",
+        "thcajn": "비행기",
+        "mucajn": "활주로/공항",
+        "cajnj": "비행하게"
       }
     },
-    "cojeu": {
+    "cojti": {
       "뜻": "여가를 즐기다",
-      "cojeu": {
-        "acoje": "놀이",
-        "elcoje": "놀이꾼",
-        "thcoje": "장난감",
-        "mucoje": "놀이터/놀이공원",
-        "cojej": "놀게"
+      "cojti": {
+        "acojt": "놀이",
+        "elcojt": "놀이꾼",
+        "thcojt": "장난감",
+        "mucojt": "놀이터/놀이공원",
+        "cojtj": "놀게"
       }
     },
     "cufmu": {
@@ -772,18 +771,18 @@
         "cufmj": "압박하게"
       }
     },
-    "dadku": {
+    "dadke": {
       "뜻": "폐쇄하다",
-      "dadku": {
+      "dadke": {
         "adadk": "폐쇄",
         "thdadk": "자물쇠",
         "mudadk": "폐쇄 구역",
         "dadkj": "폐쇄하게"
       }
     },
-    "mjinu": {
+    "mjino": {
       "뜻": "질주하다(달리다)",
-      "mjinu": {
+      "mjino": {
         "amjin": "질주/레이싱",
         "elmjin": "주자/레이서",
         "thmjin": "경주차",
@@ -791,18 +790,18 @@
         "mjinj": "질주하게"
       }
     },
-    "pumbu": {
+    "pumba": {
       "뜻": "투척하다",
-      "pumbu": {
+      "pumba": {
         "apumb": "투척/발사",
         "elpumb": "투수/발사자",
         "thpumb": "투사체/공",
         "pumbj": "던지게"
       }
     },
-    "gosnu": {
+    "gosni": {
       "뜻": "보살피다",
-      "gosnu": {
+      "gosni": {
         "agosn": "보살핌/복지",
         "elgosn": "보호자",
         "egosn": "피보호자",
@@ -810,45 +809,45 @@
         "gosnj": "보호하게"
       }
     },
-    "dogiu": {
+    "doglu": {
       "뜻": "돕다",
-      "dogiu": {
-        "adogi": "조력/즈원",
-        "eldogi": "조력자",
-        "thdogi": "보조기구",
-        "dogij": "도와주게"
+      "doglu": {
+        "adogl": "조력/즈원",
+        "eldogl": "조력자",
+        "thdogl": "보조기구",
+        "doglj": "도와주게"
       }
     },
-    "mulbu": {
+    "mulbe": {
       "뜻": "추종/추적하다",
-      "mulbu": {
+      "mulbe": {
         "amulb": "추적/추종",
         "elmulb": "추적자/팬",
         "thmulb": "추적기",
         "mulbj": "따라가게"
       }
     },
-    "sanku": {
+    "sanko": {
       "뜻": "모방하다",
-      "sanku": {
+      "sanko": {
         "asank": "모방/모조",
         "elsank": "모방자",
         "thsank": "모조품",
         "sankj": "모방하게"
       }
     },
-    "luigu": {
+    "luvga": {
       "뜻": "주입하다",
-      "luigu": {
-        "aluig": "주입/삽입",
-        "elluig": "주입기(사람)",
-        "thluig": "주사기/깔때기",
-        "luigj": "주입하게"
+      "luvga": {
+        "aluvg": "주입/삽입",
+        "elluvg": "주입기(사람)",
+        "thluvg": "주사기/깔때기",
+        "luvgj": "주입하게"
       }
     },
-    "patnu": {
+    "patni": {
       "뜻": "낙하하다",
-      "patnu": {
+      "patni": {
         "apatn": "낙하/추락",
         "elpatn": "낙하자",
         "thpatn": "낙하산",
@@ -865,9 +864,9 @@
         "lesqj": "뛰게"
       }
     },
-    "sjisu": {
+    "sjise": {
       "뜻": "마시다",
-      "sjisu": {
+      "sjise": {
         "asjis": "음용",
         "elsjis": "음용자",
         "thsjis": "컵/음료수",
@@ -875,18 +874,18 @@
         "sjisj": "마시게"
       }
     },
-    "scasu": {
+    "scaso": {
       "뜻": "대면하다",
-      "scasu": {
+      "scaso": {
         "ascas": "대면/미팅",
         "elscas": "참석자",
         "muscas": "회의실",
         "scasj": "대면하게"
       }
     },
-    "sadsu": {
+    "sadsa": {
       "뜻": "제작하다",
-      "sadsu": {
+      "sadsa": {
         "asads": "제작/제조",
         "elsads": "제작자/엔지니어",
         "thsads": "제품/작품",
@@ -894,12 +893,12 @@
         "sadsj": "만들게"
       }
     },
-    "pemiu": {
+    "pejmi": {
       "뜻": "접촉하다",
-      "pemiu": {
-        "apemi": "접촉/연락",
-        "thpemi": "센서/터치패드",
-        "pemij": "접촉하게"
+      "pejmi": {
+        "apejm": "접촉/연락",
+        "thpejm": "센서/터치패드",
+        "pejmj": "접촉하게"
       }
     },
     "sulnu": {
@@ -912,18 +911,18 @@
         "sulnj": "먹게"
       }
     },
-    "dneku": {
+    "dneke": {
       "뜻": "수령하다",
-      "dneku": {
+      "dneke": {
         "adnek": "수령/수신",
         "eldnek": "수신자",
         "thdnek": "수신기/안테나",
         "dnekj": "받게"
       }
     },
-    "glonu": {
+    "glono": {
       "뜻": "시청/관찰하다",
-      "glonu": {
+      "glono": {
         "aglon": "시청/관찰",
         "elglon": "관람객/관찰자",
         "thglon": "망원경/모니터",
@@ -931,45 +930,45 @@
         "glonj": "보게"
       }
     },
-    "qabou": {
+    "qabla": {
       "뜻": "파괴하다",
-      "qabou": {
-        "aqabo": "파괴/철거",
-        "elqabo": "파괴자",
-        "thqabo": "무기/분쇄기",
-        "muqabo": "폐기장",
-        "muqaboud": "유적",
-        "qaboj": "부수게"
+      "qabla": {
+        "aqabl": "파괴/철거",
+        "elqabl": "파괴자",
+        "thqabl": "무기/분쇄기",
+        "muqabl": "폐기장",
+        "muqablud": "유적",
+        "qablj": "부수게"
       }
     },
-    "bignu": {
+    "bigni": {
       "뜻": "기립하다(일어서다)",
-      "bignu": {
+      "bigni": {
         "abign": "기립",
         "thbign": "받침대/스탠드",
         "bignj": "서게"
       }
     },
-    "jubiu": {
+    "jublu": {
       "뜻": "은폐하다",
-      "jubiu": {
-        "ajubi": "은폐/잠행",
-        "thjubi": "위장망",
-        "mujubi": "은신처",
-        "jubij": "숨게"
+      "jublu": {
+        "ajubl": "은폐/잠행",
+        "thjubl": "위장망",
+        "mujubl": "은신처",
+        "jublj": "숨게"
       }
     },
-    "juinu": {
+    "juine": {
       "뜻": "휴식하다",
-      "juinu": {
+      "juine": {
         "ajuin": "휴식",
         "mujuin": "휴게소/쉼터",
         "juinj": "쉬게"
       }
     },
-    "jinsu": {
+    "jinso": {
       "뜻": "심다",
-      "jinsu": {
+      "jinso": {
         "ajins": "식재/농경",
         "eljins": "농부/정원사",
         "thjins": "모종/삽",
@@ -977,17 +976,17 @@
         "jinsj": "심게"
       }
     },
-    "jileu": {
+    "jesna": {
       "뜻": "착석하다",
-      "jileu": {
-        "ajile": "착석",
-        "thjile": "의자/좌석",
-        "jilej": "앉게"
+      "jesna": {
+        "ajesn": "착석",
+        "thjesn": "의자/좌석",
+        "jesnj": "앉게"
       }
     },
-    "oqwcu": {
+    "oqwci": {
       "뜻": "개방하다",
-      "oqwcu": {
+      "oqwci": {
         "aoqwc": "개방",
         "thoqwc": "열쇠/오프너",
         "oqwcj": "열게"
@@ -1001,60 +1000,60 @@
         "kingj": "입게"
       }
     },
-    "lanmu": {
+    "lanme": {
       "뜻": "취침하다",
-      "lanmu": {
+      "lanme": {
         "alanm": "수면",
         "thlanm": "침구",
         "mulanm": "침실",
         "lanmj": "잠자게"
       }
     },
-    "lafau": {
+    "lafpo": {
       "뜻": "성장하다",
-      "lafau": {
-        "alafa": "성장/발전",
-        "thlafa": "비료",
-        "lafaj": "자라게"
+      "lafpo": {
+        "alafp": "성장/발전",
+        "thlafp": "비료",
+        "lafpj": "자라게"
       }
     },
-    "lanfu": {
+    "lanfa": {
       "뜻": "절단하다",
-      "lanfu": {
+      "lanfa": {
         "alanf": "절단",
         "thlanf": "칼/가위",
         "lanfj": "자르게"
       }
     },
-    "lajgu": {
+    "lajgi": {
       "뜻": "파지하다",
-      "lajgu": {
+      "lajgi": {
         "alajg": "파지",
         "thlajg": "손잡이/집게",
         "lajgj": "잡게"
       }
     },
-    "luneu": {
+    "lunnu": {
       "뜻": "제공하다",
-      "luneu": {
-        "alune": "제공/기부",
-        "ellune": "기부자",
-        "elune": "수혜자",
-        "thlune": "보급품/선물",
-        "lunej": "주게"
+      "lunnu": {
+        "alunn": "제공/기부",
+        "ellunn": "기부자",
+        "elunn": "수혜자",
+        "thlunn": "보급품/선물",
+        "lunnj": "주게"
       }
     },
-    "luglu": {
+    "lugle": {
       "뜻": "사망하다",
-      "luglu": {
+      "lugle": {
         "alugl": "사망",
         "mulugl": "무덤",
         "luglj": "죽게"
       }
     },
-    "jaflu": {
+    "jaflo": {
       "뜻": "생존하다",
-      "jaflu": {
+      "jaflo": {
         "ajafl": "생존/삶",
         "eljafl": "생존자",
         "thjafl": "생존도구",
@@ -1063,9 +1062,9 @@
         "jaflj": "살게"
       }
     },
-    "tnibu": {
+    "tniba": {
       "뜻": "포획하다",
-      "tnibu": {
+      "tniba": {
         "atnib": "포획",
         "eltnib": "사냥꾼",
         "etnib": "사냥감",
@@ -1074,13 +1073,13 @@
         "tnibj": "사냥하게"
       }
     },
-    "safau": {
+    "safki": {
       "뜻": "말하다",
-      "safau": {
-        "asafa": "언어/말하기",
-        "elsafa": "화자",
-        "thsafa": "마이크",
-        "safaj": "말하게"
+      "safki": {
+        "asafk": "언어/말하기",
+        "elsafk": "화자",
+        "thsafk": "마이크",
+        "safkj": "말하게"
       }
     },
     "fuidu": {
@@ -1091,34 +1090,34 @@
         "fuidj": "읽게"
       }
     },
-    "labju": {
+    "labje": {
       "뜻": "작성하다",
-      "labju": {
+      "labje": {
         "alabj": "작성/아기",
         "ellabj": "작성자",
         "labjj": "작성하게"
       }
     },
-    "dundu": {
+    "dundo": {
       "뜻": "듣다",
-      "dundu": {
+      "dundo": {
         "adund": "청취",
         "eldund": "청취자",
         "thdund": "이어폰",
         "dundj": "듣게"
       }
     },
-    "jiaku": {
+    "jiaka": {
       "뜻": "소리 지르다",
-      "jiaku": {
+      "jiaka": {
         "ajiak": "고성/외침",
         "eljiak": "소리치는 자",
         "jiakj": "소리치게"
       }
     },
-    "jojbu": {
+    "jojbi": {
       "뜻": "속삭이다",
-      "jojbu": {
+      "jojbi": {
         "ajojb": "속삭임",
         "eljojb": "속삭이는 자",
         "jojbj": "속삭이게"
@@ -1132,37 +1131,37 @@
         "jopkj": "대화하게"
       }
     },
-    "liscu": {
+    "lisce": {
       "뜻": "질문하다",
-      "liscu": {
+      "lisce": {
         "alisc": "질문/질의",
         "ellisc": "질문자",
         "elisc": "답변자",
         "liscj": "질문하게"
       }
     },
-    "lifiu": {
+    "lefno": {
       "뜻": "자리하다(위치하다)",
-      "lifiu": {
-        "alifi": "자리/위치",
-        "lifiv": "자리한/위치한",
-        "lifij": "자리하게/위치하게"
+      "lefno": {
+        "alefn": "자리/위치",
+        "lefnv": "자리한/위치한",
+        "lefnj": "자리하게/위치하게"
       }
     },
-    "ulfou": {
+    "ulfla": {
       "뜻": "울다",
-      "ulfou": {
-        "aulfo": "눈물",
-        "ulfov": "운(과거에 울었던)",
-        "ulfoj": "울게"
+      "ulfla": {
+        "aulfl": "눈물",
+        "ulflv": "운(과거에 울었던)",
+        "ulflj": "울게"
       }
     },
-    "uljou": {
+    "uljti": {
       "뜻": "웃다",
-      "uljou": {
-        "auljo": "웃음",
-        "uljov": "웃는",
-        "uljoj": "웃게"
+      "uljti": {
+        "auljt": "웃음",
+        "uljtv": "웃는",
+        "uljtj": "웃게"
       }
     },
     "flecu": {
@@ -1173,33 +1172,33 @@
         "flecj": "발전하게"
       }
     },
-    "sujiu": {
+    "sujqe": {
       "뜻": "무시하다",
-      "sujiu": {
-        "asuji": "무시",
-        "sujiv": "무시한",
-        "sujij": "무시하게"
+      "sujqe": {
+        "asujq": "무시",
+        "sujqv": "무시한",
+        "sujqj": "무시하게"
       }
     },
-    "qobiu": {
+    "qobpo": {
       "뜻": "포기하다",
-      "qobiu": {
-        "aqobi": "포기",
-        "qobiv": "포기한",
-        "qobij": "포기하게"
+      "qobpo": {
+        "aqobp": "포기",
+        "qobpv": "포기한",
+        "qobpj": "포기하게"
       }
     },
-    "qitau": {
+    "qinta": {
       "뜻": "피하다",
-      "qitau": {
-        "aqita": "회피",
-        "qitav": "피한",
-        "qitaj": "피하게"
+      "qinta": {
+        "aqint": "회피",
+        "qintv": "피한",
+        "qintj": "피하게"
       }
     },
-    "lanku": {
+    "lanki": {
       "뜻": "주장하다",
-      "lanku": {
+      "lanki": {
         "alank": "주장",
         "lankv": "주장한",
         "lankj": "주장하게"
@@ -1213,28 +1212,28 @@
         "balfj": "거절하게"
       }
     },
-    "pranu": {
+    "prane": {
       "뜻": "빠르다",
       "변형": {
         "pranj": "빠르게",
         "pranv": "빠른"
       }
     },
-    "cranu": {
+    "crano": {
       "뜻": "느리다",
       "변형": {
         "cranj": "느리게",
         "cranv": "느린"
       }
     },
-    "mednu": {
+    "medna": {
       "뜻": "필요하다",
       "변형": {
         "mednj": "필요하게",
         "mednv": "필요한"
       }
     },
-    "mtknu": {
+    "mtkni": {
       "뜻": "피곤하다",
       "변형": {
         "mtknj": "피곤하게",
@@ -1248,28 +1247,28 @@
         "vtknv": "힘든"
       }
     },
-    "crnfu": {
+    "crnfe": {
       "뜻": "크다",
       "변형": {
         "crnfj": "크게",
         "crnfv": "큰"
       }
     },
-    "vknau": {
+    "vknto": {
       "뜻": "작다",
       "변형": {
-        "vknaj": "작게",
-        "vknav": "작은"
+        "vkntj": "작게",
+        "vkntv": "작은"
       }
     },
-    "trniu": {
+    "trnna": {
       "뜻": "없다",
       "변형": {
-        "trnij": "없게",
-        "trniv": "없는"
+        "trnnj": "없게",
+        "trnnv": "없는"
       }
     },
-    "lenlu": {
+    "lenli": {
       "뜻": "있다",
       "변형": {
         "lenlj": "있게",
@@ -1283,65 +1282,65 @@
         "hrknv": "높은"
       }
     },
-    "grknu": {
+    "grkne": {
       "뜻": "낮다",
       "변형": {
         "grknj": "낮게",
         "grknv": "낮은"
       }
     },
-    "baleu": {
+    "ballo": {
       "뜻": "가정하다",
-      "baleu": {
-        "abale": "가정",
-        "balev": "가정한",
-        "balej": "가정하게"
+      "ballo": {
+        "aball": "가정",
+        "ballv": "가정한",
+        "ballj": "가정하게"
       }
     },
-    "qagiu": {
+    "qagla": {
       "뜻": "패배하다",
-      "qagiu": {
-        "aqagi": "패배",
-        "qagiv": "패배한",
-        "qagij": "패배하게",
-        "elqagi": "패배자"
+      "qagla": {
+        "aqagl": "패배",
+        "qaglv": "패배한",
+        "qaglj": "패배하게",
+        "elqagl": "패배자"
       }
     },
-    "gacku": {
+    "gacki": {
       "뜻": "반응하다",
-      "gacku": {
+      "gacki": {
         "agack": "반응",
         "gackv": "반응한",
         "gackj": "반응하게"
       }
     },
-    "muqau": {
+    "mulnu": {
       "뜻": "출판하다",
-      "muqau": {
-        "amuqa": "출판",
-        "muqav": "출판한",
-        "muqaj": "출판하게"
+      "mulnu": {
+        "amuln": "출판",
+        "mulnv": "출판한",
+        "mulnj": "출판하게"
       }
     },
-    "kjibu": {
+    "kjibe": {
       "뜻": "장식하다",
-      "kjibu": {
+      "kjibe": {
         "akjib": "장식",
         "kjibv": "장식한",
         "kjibj": "장식하게"
       }
     },
-    "ktaiu": {
+    "ktato": {
       "뜻": "방해하다",
-      "ktaiu": {
-        "aktai": "방해",
-        "ktaiv": "방해한",
-        "ktaij": "방해하게"
+      "ktato": {
+        "aktat": "방해",
+        "ktatv": "방해한",
+        "ktatj": "방해하게"
       }
     },
-    "jlaku": {
+    "jlaka": {
       "뜻": "보상하다",
-      "jlaku": {
+      "jlaka": {
         "ajlak": "보상",
         "jlakv": "보상한",
         "jlakj": "보상하게"
@@ -1355,33 +1354,33 @@
         "sgabj": "명백하게"
       }
     },
-    "tejau": {
+    "tejne": {
       "뜻": "협상하다",
-      "tejau": {
-        "ateja": "협상",
-        "tejav": "협상한",
-        "tejaj": "협상하게"
+      "tejne": {
+        "atejn": "협상",
+        "tejnv": "협상한",
+        "tejnj": "협상하게"
       }
     },
-    "tuoiu": {
+    "tuoto": {
       "뜻": "후회하다",
-      "tuoiu": {
-        "atuoi": "후회",
-        "tuoiv": "후회한",
-        "tuoij": "후회하게"
+      "tuoto": {
+        "atuot": "후회",
+        "tuotv": "후회한",
+        "tuotj": "후회하게"
       }
     },
-    "toabu": {
+    "toaba": {
       "뜻": "정확하다",
-      "toabu": {
+      "toaba": {
         "atoab": "정확",
         "toabv": "정확한",
         "toabj": "정확하게"
       }
     },
-    "dlecu": {
+    "dleci": {
       "뜻": "도전하다",
-      "dlecu": {
+      "dleci": {
         "adlec": "도전",
         "dlecv": "도전한",
         "dlecj": "도전하게",
@@ -1396,35 +1395,35 @@
         "klinj": "중지하게"
       }
     },
-    "fiebu": {
+    "fiebe": {
       "뜻": "협력하다",
-      "fiebu": {
+      "fiebe": {
         "afieb": "협력",
         "fiebv": "협력한",
         "fiebj": "협력하게",
         "elfieb": "협력자"
       }
     },
-    "tlagu": {
+    "tlago": {
       "뜻": "적합하다",
-      "tlagu": {
+      "tlago": {
         "atlag": "적합",
         "tlagv": "적합한",
         "tlagj": "적합하게",
         "eltlag": "적합자"
       }
     },
-    "jajou": {
+    "jajna": {
       "뜻": "상속하다",
-      "jajou": {
-        "ajajo": "상속",
-        "jajov": "상속한",
-        "jajoj": "상속하게"
+      "jajna": {
+        "ajajn": "상속",
+        "jajnv": "상속한",
+        "jajnj": "상속하게"
       }
     },
-    "fiecu": {
+    "fieci": {
       "뜻": "실현하다",
-      "fiecu": {
+      "fieci": {
         "afiec": "실현",
         "fiecv": "실현한",
         "fiecj": "실현하게"
@@ -1438,36 +1437,36 @@
         "kenfj": "동일하게"
       }
     },
-    "ladku": {
+    "ladke": {
       "뜻": "작동하다",
-      "ladku": {
+      "ladke": {
         "aladk": "작동",
         "ladkv": "작동한",
         "ladkj": "작동하게"
       }
     },
-    "sijau": {
+    "sijlo": {
       "뜻": "묘사하다",
-      "sijau": {
-        "asija": "묘사",
-        "sijav": "묘사한",
-        "sijaj": "묘사하게"
+      "sijlo": {
+        "asijl": "묘사",
+        "sijlv": "묘사한",
+        "sijlj": "묘사하게"
       }
     },
-    "jeufu": {
+    "jeufa": {
       "뜻": "서술하다",
-      "jeufu": {
+      "jeufa": {
         "ajeuf": "서술",
         "jeufv": "서술한",
         "jeufj": "서술하게"
       }
     },
-    "cakiu": {
+    "cakni": {
       "뜻": "안내하다",
-      "cakiu": {
-        "acaki": "안내",
-        "cakiv": "안내한",
-        "cakij": "안내하게"
+      "cakni": {
+        "acakn": "안내",
+        "caknv": "안내한",
+        "caknj": "안내하게"
       }
     },
     "tunku": {
@@ -1478,581 +1477,581 @@
         "ttunkj": "훌륭하게"
       }
     },
-    "daicu": {
+    "daice": {
       "뜻": "대단하다",
-      "daicu": {
+      "daice": {
         "adaic": "대단",
         "daicv": "대단한",
         "daicj": "대단하게"
       }
     },
-    "bulou": {
+    "bulpo": {
       "뜻": "구조하다",
-      "bulou": {
-        "abulo": "구조",
-        "bulov": "구조한",
-        "buloj": "구조하게"
+      "bulpo": {
+        "abulp": "구조",
+        "bulpv": "구조한",
+        "bulpj": "구조하게"
       }
     },
-    "baifu": {
+    "baifa": {
       "뜻": "폭발하다",
-      "baifu": {
+      "baifa": {
         "abaif": "폭발",
         "baifv": "폭발한",
         "baifj": "폭발하게"
       }
     },
-    "mesau": {
+    "mesli": {
       "뜻": "첨부하다",
-      "mesau": {
-        "amesa": "첨부",
-        "mesav": "첨부한",
-        "mesaj": "첨부하게"
+      "mesli": {
+        "amesl": "첨부",
+        "meslv": "첨부한",
+        "meslj": "첨부하게"
       }
     },
-    "mosiu": {
+    "mosnu": {
       "뜻": "총명하다",
-      "mosiu": {
-        "amosi": "총명",
-        "mosiv": "총명한",
-        "mosij": "총명하게"
+      "mosnu": {
+        "amosn": "총명",
+        "mosnv": "총명한",
+        "mosnj": "총명하게"
       }
     },
-    "cijnu": {
+    "cijne": {
       "뜻": "완수하다",
-      "cijnu": {
+      "cijne": {
         "acijn": "완수",
         "cijnv": "완수한",
         "cijnj": "완수하게"
       }
     },
-    "keneu": {
+    "kenno": {
       "뜻": "유일하다",
-      "keneu": {
-        "akene": "유일",
-        "kenev": "유일한",
-        "kenej": "유일하게"
+      "kenno": {
+        "akenn": "유일",
+        "kennv": "유일한",
+        "kennj": "유일하게"
       }
     },
-    "dwkfobu": {
+    "kfoba": {
       "뜻": "등록하다",
-      "dwkfobu": {
-        "adwkfob": "등록",
-        "dwkfobv": "등록한",
-        "dwkfobj": "등록하게"
+      "kfoba": {
+        "akfob": "등록",
+        "kfobv": "등록한",
+        "kfobj": "등록하게"
       }
     },
-    "kuitiegu": {
+    "kutgi": {
       "뜻": "위협하다",
-      "kuitiegu": {
-        "akuitieg": "위협",
-        "kuitiegv": "위협한",
-        "kuitiegj": "위협하게"
+      "kutgi": {
+        "akutg": "위협",
+        "kutgv": "위협한",
+        "kutgj": "위협하게"
       }
     },
-    "jekmuiu": {
+    "jumgu": {
       "뜻": "성취하다",
-      "jekmuiu": {
-        "ajekmui": "성취",
-        "jekmuiv": "성취한",
-        "jekmuij": "성취하게"
+      "jumgu": {
+        "ajumg": "성취",
+        "jumgv": "성취한",
+        "jumgj": "성취하게"
       }
     },
-    "giqacu": {
+    "giqce": {
       "뜻": "비판하다",
-      "giqacu": {
-        "agiqac": "비판",
-        "giqacv": "비판한",
-        "giqacj": "비판하게"
+      "giqce": {
+        "agiqc": "비판",
+        "giqcv": "비판한",
+        "giqcj": "비판하게"
       }
     },
-    "toabjacu": {
+    "bjaco": {
       "뜻": "확산하다",
-      "toabjacu": {
-        "atoabjac": "확산",
-        "toabjacv": "확산한",
-        "toabjacj": "확산하게"
+      "bjaco": {
+        "abjac": "확산",
+        "bjacv": "확산한",
+        "bjacj": "확산하게"
       }
     },
-    "qiekgesu": {
+    "qekga": {
       "뜻": "평범하다",
-      "qiekgesu": {
-        "aqiekges": "평범",
-        "qiekgesv": "평범한",
-        "qiekgesj": "평범하게"
+      "qekga": {
+        "aqekg": "평범",
+        "qekgv": "평범한",
+        "qekgj": "평범하게"
       }
     },
-    "kietaiku": {
+    "ketki": {
       "뜻": "여행하다",
-      "kietaiku": {
-        "akietaik": "여행",
-        "kietaikv": "여행한",
-        "kietaikj": "여행하게",
-        "elkietaik": "여행자"
+      "ketki": {
+        "aketk": "여행",
+        "ketkv": "여행한",
+        "ketkj": "여행하게",
+        "elketk": "여행자"
       }
     },
-    "ligluku": {
+    "gelku": {
       "뜻": "집중하다",
-      "ligluku": {
-        "aligluk": "집중",
-        "liglukv": "집중한",
-        "liglukj": "집중하게"
+      "gelku": {
+        "agelk": "집중",
+        "gelkv": "집중한",
+        "gelkj": "집중하게"
       }
     },
-    "juctoacu": {
+    "jtace": {
       "뜻": "순환하다",
-      "juctoacu": {
-        "ajuctoac": "순환",
-        "juctoacv": "순환한",
-        "juctoacj": "순환하게"
+      "jtace": {
+        "ajtac": "순환",
+        "jtacv": "순환한",
+        "jtacj": "순환하게"
       }
     },
-    "twijaiku": {
+    "jaiko": {
       "뜻": "희생하다",
-      "twijaiku": {
-        "atwijaik": "희생",
-        "twijaikv": "희생한",
-        "twijaikj": "희생하게"
+      "jaiko": {
+        "ajaik": "희생",
+        "jaikv": "희생한",
+        "jaikj": "희생하게"
       }
     },
-    "pastesu": {
+    "stesa": {
       "뜻": "탐험하다",
-      "pastesu": {
-        "apastes": "탐험",
-        "pastesv": "탐험한",
-        "pastesj": "탐험하게"
+      "stesa": {
+        "astes": "탐험",
+        "stesv": "탐험한",
+        "stesj": "탐험하게"
       }
     },
-    "kieikiabu": {
+    "kiabi": {
       "뜻": "예약하다",
-      "kieikiabu": {
-        "akieikiab": "예약",
-        "kieikiabv": "예약한",
-        "kieikiabj": "예약하게"
+      "kiabi": {
+        "akiab": "예약",
+        "kiabv": "예약한",
+        "kiabj": "예약하게"
       }
     },
-    "mumecu": {
+    "mejcu": {
       "뜻": "추천하다",
-      "mumecu": {
-        "amumec": "추천",
-        "mumecv": "추천한",
-        "mumecj": "추천하게"
+      "mejcu": {
+        "amejc": "추천",
+        "mejcv": "추천한",
+        "mejcj": "추천하게"
       }
     },
-    "gicacu": {
+    "glace": {
       "뜻": "비난하다",
-      "gicacu": {
-        "agicac": "비난",
-        "gicacv": "비난한",
-        "gicacj": "비난하게"
+      "glace": {
+        "aglac": "비난",
+        "glacv": "비난한",
+        "glacj": "비난하게"
       }
     },
-    "jocjifu": {
+    "cjifo": {
       "뜻": "손실하다",
-      "jocjifu": {
-        "ajocjif": "손실",
-        "jocjifv": "손실한",
-        "jocjifj": "손실하게"
+      "cjifo": {
+        "acjif": "손실",
+        "cjifv": "손실한",
+        "cjifj": "손실하게"
       }
     },
-    "jefdwbu": {
+    "jefba": {
       "뜻": "설득하다",
-      "jefdwbu": {
-        "ajefdwb": "설득",
-        "jefdwbv": "설득한",
-        "jefdwbj": "설득하게"
+      "jefba": {
+        "ajefb": "설득",
+        "jefbv": "설득한",
+        "jefbj": "설득하게"
       }
     },
-    "bedaiu": {
+    "bladi": {
       "뜻": "거대하다",
-      "bedaiu": {
-        "abedai": "거대",
-        "bedaiv": "거대한",
-        "bedaij": "거대하게"
+      "bladi": {
+        "ablad": "거대",
+        "bladv": "거대한",
+        "bladj": "거대하게"
       }
     },
-    "bieklaiku": {
+    "klaku": {
       "뜻": "경쟁하다",
-      "bieklaiku": {
-        "abieklaik": "경쟁",
-        "bieklaikv": "경쟁한",
-        "bieklaikj": "경쟁하게"
+      "klaku": {
+        "aklak": "경쟁",
+        "klakv": "경쟁한",
+        "klakj": "경쟁하게"
       }
     },
-    "toijaku": {
+    "tjake": {
       "뜻": "회상하다",
-      "toijaku": {
-        "atoijak": "회상",
-        "toijakv": "회상한",
-        "toijakj": "회상하게"
+      "tjake": {
+        "atjak": "회상",
+        "tjakv": "회상한",
+        "tjakj": "회상하게"
       }
     },
-    "mumoiu": {
+    "menlo": {
       "뜻": "추최하다",
-      "mumoiu": {
-        "amumoi": "추최",
-        "mumoiv": "추최한",
-        "mumoij": "추최하게"
+      "menlo": {
+        "amenl": "추최",
+        "menlv": "추최한",
+        "menlj": "추최하게"
       }
     },
-    "gibiou": {
+    "ginba": {
       "뜻": "비교하다",
-      "gibiou": {
-        "agibio": "비교",
-        "gibiov": "비교한",
-        "gibioj": "비교하게"
+      "ginba": {
+        "aginb": "비교",
+        "ginbv": "비교한",
+        "ginbj": "비교하게"
       }
     },
-    "bujeku": {
+    "bujki": {
       "뜻": "구성하다",
-      "bujeku": {
-        "abujek": "구성",
-        "bujekv": "구성한",
-        "bujekj": "구성하게"
+      "bujki": {
+        "abujk": "구성",
+        "bujkv": "구성한",
+        "bujkj": "구성하게"
       }
     },
-    "bwsliu": {
+    "wsliu": {
       "뜻": "금지하다",
-      "bwsliu": {
-        "abwsli": "금지",
-        "bwsliv": "금지한",
-        "bwslij": "금지하게"
+      "wsliu": {
+        "awsli": "금지",
+        "wsliv": "금지한",
+        "wslij": "금지하게"
       }
     },
-    "bifobu": {
+    "bifbe": {
       "뜻": "기록하다",
-      "bifobu": {
-        "abifob": "기록",
-        "bifobv": "기록한",
-        "bifobj": "기록하게"
+      "bifbe": {
+        "abifb": "기록",
+        "bifbv": "기록한",
+        "bifbj": "기록하게"
       }
     },
-    "qiekbau": {
+    "qekbo": {
       "뜻": "평가하다",
-      "qiekbau": {
-        "aqiekba": "평가",
-        "qiekbav": "평가한",
-        "qiekbaj": "평가하게"
+      "qekbo": {
+        "aqekb": "평가",
+        "qekbv": "평가한",
+        "qekbj": "평가하게"
       }
     },
-    "kiukiecu": {
+    "kieca": {
       "뜻": "유연하다",
-      "kiukiecu": {
-        "akiukiec": "유연",
-        "kiukiecv": "유연한",
-        "kiukiecj": "유연하게"
+      "kieca": {
+        "akiec": "유연",
+        "kiecv": "유연한",
+        "kiecj": "유연하게"
       }
     },
-    "lukkiou": {
+    "lunki": {
       "뜻": "중요하다",
-      "lukkiou": {
-        "alukkio": "중요",
-        "lukkiov": "중요한",
-        "lukkioj": "중요하게"
+      "lunki": {
+        "alunk": "중요",
+        "lunkv": "중요한",
+        "lunkj": "중요하게"
       }
     },
-    "bafdwku": {
+    "bafku": {
       "뜻": "갈등하다",
-      "bafdwku": {
-        "abafdwk": "갈등",
-        "bafdwkv": "갈등한",
-        "bafdwkj": "갈등하게"
+      "bafku": {
+        "abafk": "갈등",
+        "bafkv": "갈등한",
+        "bafkj": "갈등하게"
       }
     },
-    "biebfiu": {
+    "biefe": {
       "뜻": "격리하다",
-      "biebfiu": {
-        "abiebfi": "격리",
-        "biebfiv": "격리한",
-        "biebfij": "격리하게"
+      "biefe": {
+        "abief": "격리",
+        "biefv": "격리한",
+        "biefj": "격리하게"
       }
     },
-    "bioleku": {
+    "bleko": {
       "뜻": "교정하다",
-      "bioleku": {
-        "abiolek": "교정",
-        "biolekv": "교정한",
-        "biolekj": "교정하게"
+      "bleko": {
+        "ablek": "교정",
+        "blekv": "교정한",
+        "blekj": "교정하게"
       }
     },
-    "legbwcu": {
+    "legca": {
       "뜻": "접근하다",
-      "legbwcu": {
-        "alegbwc": "접근",
-        "legbwcv": "접근한",
-        "legbwcj": "접근하게"
+      "legca": {
+        "alegc": "접근",
+        "legcv": "접근한",
+        "legcj": "접근하게"
       }
     },
-    "jefmiu": {
+    "jefmi": {
       "뜻": "설치하다",
-      "jefmiu": {
-        "ajefmi": "설치",
-        "jefmiv": "설치한",
-        "jefmij": "설치하게"
+      "jefmi": {
+        "ajefm": "설치",
+        "jefmv": "설치한",
+        "jefmj": "설치하게"
       }
     },
-    "kuifou": {
+    "kuifu": {
       "뜻": "위로하다",
-      "kuifou": {
-        "akuifo": "위로",
-        "kuifov": "위로한",
-        "kuifoj": "위로하게"
+      "kuifu": {
+        "akuif": "위로",
+        "kuifv": "위로한",
+        "kuifj": "위로하게"
       }
     },
-    "gaidafu": {
+    "gidfe": {
       "뜻": "배달하다",
-      "gaidafu": {
-        "agaidaf": "배달",
-        "gaidafv": "배달한",
-        "gaidafj": "배달하게"
+      "gidfe": {
+        "agidf": "배달",
+        "gidfv": "배달한",
+        "gidfj": "배달하게"
       }
     },
-    "leblefu": {
+    "blefo": {
       "뜻": "적절하다",
-      "leblefu": {
-        "aleblef": "적절",
-        "leblefv": "적절한",
-        "leblefj": "적절하게"
+      "blefo": {
+        "ablef": "적절",
+        "blefv": "적절한",
+        "blefj": "적절하게"
       }
     },
-    "bilwku": {
+    "benka": {
       "뜻": "기증하다",
-      "bilwku": {
-        "abilwk": "기증",
-        "bilwkv": "기증한",
-        "bilwkj": "기증하게"
+      "benka": {
+        "abenk": "기증",
+        "benkv": "기증한",
+        "benkj": "기증하게"
       }
     },
-    "jekjubu": {
+    "jonbu": {
       "뜻": "성숙하다",
-      "jekjubu": {
-        "ajekjub": "성숙",
-        "jekjubv": "성숙한",
-        "jekjubj": "성숙하게"
+      "jonbu": {
+        "ajonb": "성숙",
+        "jonbv": "성숙한",
+        "jonbj": "성숙하게"
       }
     },
-    "mufgafu": {
+    "sulte": {
       "뜻": "출발하다",
-      "mufgafu": {
-        "amufgaf": "출발",
-        "mufgafv": "출발한",
-        "mufgafj": "출발하게"
+      "sulte": {
+        "asult": "출발",
+        "sultv": "출발한",
+        "sultj": "출발하게"
       }
     },
-    "jufabu": {
+    "jufbo": {
       "뜻": "수락하다",
-      "jufabu": {
-        "ajufab": "수락",
-        "jufabv": "수락한",
-        "jufabj": "수락하게"
+      "jufbo": {
+        "ajufb": "수락",
+        "jufbv": "수락한",
+        "jufbj": "수락하게"
       }
     },
-    "bwbjisu": {
+    "kjisa": {
       "뜻": "극심하다",
-      "bwbjisu": {
-        "abwbjis": "극심",
-        "bwbjisv": "극심한",
-        "bwbjisj": "극심하게"
+      "kjisa": {
+        "akjis": "극심",
+        "kjisv": "극심한",
+        "kjisj": "극심하게"
       }
     },
-    "kijaku": {
+    "kjaki": {
       "뜻": "이상하다",
-      "kijaku": {
-        "akijak": "이상",
-        "kijakv": "이상한",
-        "kijakj": "이상하게"
+      "kjaki": {
+        "akjak": "이상",
+        "kjakv": "이상한",
+        "kjakj": "이상하게"
       }
     },
-    "taibiefu": {
+    "tabnu": {
       "뜻": "해결하다",
-      "taibiefu": {
-        "ataibief": "해결",
-        "taibiefv": "해결한",
-        "taibiefj": "해결하게"
+      "tabnu": {
+        "atabn": "해결",
+        "tabnv": "해결한",
+        "tabnj": "해결하게"
       }
     },
-    "jaboau": {
+    "javle": {
       "뜻": "사과하다",
-      "jaboau": {
-        "ajaboa": "사과",
-        "jaboav": "사과한",
-        "jaboaj": "사과하게"
+      "javle": {
+        "ajavl": "사과",
+        "javlv": "사과한",
+        "javlj": "사과하게"
       }
     },
-    "giectoau": {
+    "gecto": {
       "뜻": "변화하다",
-      "giectoau": {
-        "agiectoa": "변화",
-        "giectoav": "변화한",
-        "giectoaj": "변화하게"
+      "gecto": {
+        "agect": "변화",
+        "gectv": "변화한",
+        "gectj": "변화하게"
       }
     },
-    "gijwju": {
+    "jigta": {
       "뜻": "비슷하다",
-      "gijwju": {
-        "agijwj": "비슷",
-        "gijwjv": "비슷한",
-        "gijwjj": "비슷하게"
+      "jigta": {
+        "ajigt": "비슷",
+        "jigtv": "비슷한",
+        "jigtj": "비슷하게"
       }
     },
-    "koaclecu": {
+    "cleci": {
       "뜻": "완전하다",
-      "koaclecu": {
-        "akoaclec": "완전",
-        "koaclecv": "완전한",
-        "koaclecj": "완전하게"
+      "cleci": {
+        "aclec": "완전",
+        "clecv": "완전한",
+        "clecj": "완전하게"
       }
     },
-    "twgjuu": {
+    "tejlu": {
       "뜻": "흡수하다",
-      "twgjuu": {
-        "atwgju": "흡수",
-        "twgjuv": "흡수한",
-        "twgjuj": "흡수하게"
+      "tejlu": {
+        "atejl": "흡수",
+        "tejlv": "흡수한",
+        "tejlj": "흡수하게"
       }
     },
-    "lebkwku": {
+    "pevte": {
       "뜻": "적응하다",
-      "lebkwku": {
-        "alebkwk": "적응",
-        "lebkwkv": "적응한",
-        "lebkwkj": "적응하게"
+      "pevte": {
+        "apevt": "적응",
+        "pectv": "적응한",
+        "pevtj": "적응하게"
       }
     },
-    "locbieku": {
+    "bolko": {
       "뜻": "존경하다",
-      "locbieku": {
-        "alocbiek": "존경",
-        "locbiekv": "존경한",
-        "locbiekj": "존경하게"
+      "bolko": {
+        "abolk": "존경",
+        "bolkv": "존경한",
+        "bolkj": "존경하게"
       }
     },
-    "kieimwbu": {
+    "kemba": {
       "뜻": "예측하다",
-      "kieimwbu": {
-        "akieimwb": "예측",
-        "kieimwbv": "예측한",
-        "kieimwbj": "예측하게"
+      "kemba": {
+        "akemb": "예측",
+        "kembv": "예측한",
+        "kembj": "예측하게"
       }
     },
-    "bieftagu": {
+    "betni": {
       "뜻": "결합하다",
-      "bieftagu": {
-        "abieftag": "결합",
-        "bieftagv": "결합한",
-        "bieftagj": "결합하게"
+      "betni": {
+        "abetn": "결합",
+        "betnv": "결합한",
+        "betnj": "결합하게"
       }
     },
-    "gufqieku": {
+    "gusku": {
       "뜻": "불평하다",
-      "gufqieku": {
-        "agufqiek": "불평",
-        "gufqiekv": "불평한",
-        "gufqiekj": "불평하게"
+      "gusku": {
+        "agusk": "불평",
+        "guskv": "불평한",
+        "guskj": "불평하게"
       }
     },
-    "jumufu": {
+    "jumfe": {
       "뜻": "수출하다",
-      "jumufu": {
-        "ajumuf": "수출",
-        "jumufv": "수출한",
-        "jumufj": "수출하게"
+      "jumfe": {
+        "ajumf": "수출",
+        "jumfv": "수출한",
+        "jumfj": "수출하게"
       }
     },
-    "boalaku": {
+    "blako": {
       "뜻": "과장하다",
-      "boalaku": {
-        "aboalak": "과장",
-        "boalakv": "과장한",
-        "boalakj": "과장하게"
+      "blako": {
+        "ablak": "과장",
+        "blakv": "과장한",
+        "blakj": "과장하게"
       }
     },
-    "dokkwiu": {
+    "donka": {
       "뜻": "동의하다",
-      "dokkwiu": {
-        "adokkwi": "동의",
-        "dokkwiv": "동의한",
-        "dokkwij": "동의하게"
+      "donka": {
+        "adonk": "동의",
+        "donkv": "동의한",
+        "donkj": "동의하게"
       }
     },
-    "dobfigu": {
+    "bifgi": {
       "뜻": "독립하다",
-      "dobfigu": {
-        "adobfig": "독립",
-        "dobfigv": "독립한",
-        "dobfigj": "독립하게"
+      "bifgi": {
+        "abifg": "독립",
+        "bifgv": "독립한",
+        "bifgj": "독립하게"
       }
     },
-    "jefsieku": {
+    "sieku": {
       "뜻": "설명하다",
-      "jefsieku": {
-        "ajefsiek": "설명",
-        "jefsiekv": "설명한",
-        "jefsiekj": "설명하게"
+      "sieku": {
+        "asiek": "설명",
+        "siekv": "설명한",
+        "siekj": "설명하게"
       }
     },
-    "bacjegu": {
+    "bajge": {
       "뜻": "간섭하다",
-      "bacjegu": {
-        "abacjeg": "간섭",
-        "bacjegv": "간섭한",
-        "bacjegj": "간섭하게"
+      "bajge": {
+        "abajg": "간섭",
+        "bajgv": "간섭한",
+        "bajgj": "간섭하게"
       }
     },
-    "bacboau": {
+    "bolno": {
       "뜻": "간과하다",
-      "bacboau": {
-        "abacboa": "간과",
-        "bacboav": "간과한",
-        "bacboaj": "간과하게"
+      "bolno": {
+        "aboln": "간과",
+        "bolnv": "간과한",
+        "bolnj": "간과하게"
       }
     },
-    "boligu": {
+    "bolga": {
       "뜻": "고집하다",
-      "boligu": {
-        "abolig": "고집",
-        "boligv": "고집한",
-        "boligj": "고집하게"
+      "bolga": {
+        "abolg": "고집",
+        "bolgv": "고집한",
+        "bolgj": "고집하게"
       }
     },
-    "jaikjacu": {
+    "kjaci": {
       "뜻": "생산하다",
-      "jaikjacu": {
-        "ajaikjac": "생산",
-        "jaikjacv": "생산한",
-        "jaikjacj": "생산하게"
+      "kjaci": {
+        "akjac": "생산",
+        "kjacv": "생산한",
+        "kjacj": "생산하게"
       }
     },
-    "lictaiku": {
+    "ctiku": {
       "뜻": "진행하다",
-      "lictaiku": {
-        "alictaik": "진행",
-        "lictaikv": "진행한",
-        "lictaikj": "진행하게"
+      "ctiku": {
+        "actik": "진행",
+        "ctikv": "진행한",
+        "ctikj": "진행하게"
       }
     },
-    "muklecu": {
+    "klece": {
       "뜻": "충전하다",
-      "muklecu": {
-        "amuklec": "충전",
-        "muklecv": "충전한",
-        "muklecj": "충전하게"
+      "klece": {
+        "aklec": "충전",
+        "klecv": "충전한",
+        "klecj": "충전하게"
       }
     },
-    "biomeiu": {
+    "bomlo": {
       "뜻": "교체하다",
-      "biomeiu": {
-        "abiomei": "교체",
-        "biomeiv": "교체한",
-        "biomeij": "교체하게"
+      "bomlo": {
+        "aboml": "교체",
+        "bomlv": "교체한",
+        "bomlj": "교체하게"
       }
     },
-    "leibeu": {
+    "leiba": {
       "뜻": "제거하다",
-      "leibeu": {
-        "aleibe": "제거",
-        "leibev": "제거한",
-        "leibej": "제거하게"
+      "leiba": {
+        "aleib": "제거",
+        "leibv": "제거한",
+        "leibj": "제거하게"
       }
     },
     "daiqiou": {
